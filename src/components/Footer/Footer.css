@@ -1,0 +1,116 @@
+/* Footer.css */
+.Footer {
+    background-color: #000000; /* Dark background color */
+    color: #ffffff; /* White text color */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+
+.applink {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(133, 133, 133);
+    width: 100%;
+    height: 110px;
+    margin-bottom:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:90px;
+}
+
+.applink h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.applink div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.applink img {
+    width: 140px;
+    height: auto;
+}
+
+.footerlink {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.rights {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 200px;
+}
+
+.swiggy {
+    display: flex;
+    align-items: center;
+   
+}
+
+.swiggy img {
+    width: 114px;
+    height: 64px;
+    margin-right: -34px;
+}
+
+.swiggy h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.copyrights p {
+    font-size: 14px;
+    margin-left: 40%;
+    margin-top: -0%;
+}
+
+.company, .contactus, .legal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 200px;
+    cursor: pointer;
+}
+
+.company h2, .contactus h2, .legal h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.company p, .contactus p, .legal p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footerlink div {
+    margin: 0 20px;
+}
+
+@media (max-width: 768px) {
+    .footerlink {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rights, .company, .contactus, .legal {
+        align-items: center;
+        max-width: none;
+    }
+
+    .footerlink div {
+        margin: 10px 0;
+    }
+}

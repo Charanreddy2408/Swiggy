@@ -1,0 +1,106 @@
+.restaurantname {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+  margin-left: -25%;
+
+}
+.infocard {
+  border: 2 px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  height: 200px;
+  align-items: flex-start;
+  background-color: #fff;
+  box-shadow: 0 16px 15px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: auto;
+}
+.timestring {
+  margin-top: -0.4%;
+}
+.infocard hr {
+  width: 100%;
+  margin-top: -1%;
+  background-color: #7e7c7c;
+}
+.information {
+  display: flex;
+  justify-content: row;
+  gap: 10px;
+}
+.cuisines {
+  color: #ff5200;
+  font-weight: 700;
+  margin-top: -0.3%;
+  text-align:start;
+}
+.location {
+  margin-top: -2%;
+}
+.locality {
+  color: black;
+  font-weight: 700;
+}
+.delivery {
+  display: flex;
+  justify-content: row;
+  align-items: flex-start;
+  margin-top: -1%;
+  font-weight: 300;
+}
+.Area {
+  color: black;
+  font-weight: 600;
+  margin-top: -2%;
+}
+.deliverytime {
+  display: flex;
+  justify-content: column;
+  align-items: flex-start;
+  color: rgb(76, 73, 73);
+  font-weight: 700;
+  margin-top: 0;
+  gap: 10px;
+}
+
+.rating {
+  display: inline-flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #388e3c;
+  margin-bottom: 10px;
+}
+
+.rating::before {
+  content: "\2605";
+  margin-right: 5px;
+}
+
+.cost {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 10px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.menusection{
+  background-color: #ffffff;
+  width: 770px;
+  height: 40px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.menu{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}

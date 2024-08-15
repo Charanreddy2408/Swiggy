@@ -1,0 +1,88 @@
+.partner-container {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  
+}
+.body{
+  height: 100vh;
+}
+.partner-container h1{
+  color: black;
+  margin-left: -53%;
+  
+}
+
+.section {
+  padding: 10px 0;
+margin-top: -3%;
+}
+
+.toggle-text {
+  cursor: pointer;
+  color: #333;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 7%;
+
+}
+
+.toggle-text:hover {
+  color: #0073e6;
+}
+
+.content {
+  display: flex;
+  align-items:start;
+  flex-direction: column;
+  margin-left:5%;
+  width:50%;
+  margin-top: -15px;
+}
+
+.link {
+  color: #ff6f00;
+  cursor: pointer;
+  
+}
+
+.email-button {
+  background-color: white;
+  color: #ff6f00; 
+  border: 2px solid #ff6f00;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  font-weight: bold;
+}
+
+.email-button:hover {
+  background-color: #ff6f00;
+  color: white;
+}
+
+.response-time {
+  font-size: 14px;
+  color: #666;
+  text-align: left; 
+  font-size: 14px; 
+  line-height: 1.6; 
+  color: #525252;
+
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ddd; 
+  width: 900px;
+  
+}
+.rules {
+  width: 140%;
+  text-align: left; 
+  font-size: 14px; 
+  line-height: 1.6; 
+  color: #787373;
+}
+

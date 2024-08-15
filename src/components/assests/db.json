@@ -1,0 +1,3336 @@
+{
+  "menuData": [
+    {
+      "section": "Starters",
+      "items": [
+        {
+          "name": "Garlic Bread",
+          "description": "Toasted bread with garlic and herbs",
+          "price": 3.5,
+          "rating": 4.3,
+          "image": "https://imgs.search.brave.com/Tu00qHgIlLdxMjkm_FJKHIE26_7qmj27NmdK8M5Zge0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwMS5ueXQuY29t/L2ltYWdlcy8yMDE4/LzEyLzExL2Rpbmlu/Zy9hcy1nYXJsaWMt/YnJlYWQvYXMtZ2Fy/bGljLWJyZWFkLWFy/dGljbGVMYXJnZS5q/cGc_d2lkdGg9MTI4/MCZxdWFsaXR5PTc1/JmF1dG89d2VicA"
+          
+        },
+        {
+          "name": "Bruschetta",
+          "description": "Grilled bread with tomatoes, olive oil, and basil",
+          "price": 4.0,
+          "rating": 4.5,
+          "image": "https://imgs.search.brave.com/Y8AJjX1E6XOUI4jquTBlV7WcWoyxjPdj1M-RsK4Y1Y8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL3RoZXBpb25l/ZXJ3b21hbi93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxMi8wMS9i/cnVzY2hldHRhMS5q/cGc_Y3JvcD0xeHc6/MC44NDM3NXhoO2Nl/bnRlcix0b3AmcmVz/aXplPTEyMDA6Kg"
+        },
+        {
+          "name": "Stuffed Mushrooms",
+          "description": "Mushrooms stuffed with cheese and herbs",
+          "price": 5.0,
+          "rating": 4.6,
+          "image": "https://imgs.search.brave.com/IuSLlo_DgVXyK_ppWVicPWQshdq2TWw1seAgvHU3bgg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwMS5ueXQuY29t/L2ltYWdlcy8yMDIx/LzExLzA0L2Rpbmlu/Zy9rYy1zdHVmZmVk/LW11c2hyb29tcy9r/Yy1zdHVmZmVkLW11/c2hyb29tcy1hcnRp/Y2xlTGFyZ2UuanBn/P3dpZHRoPTEyODAm/cXVhbGl0eT03NSZh/dXRvPXdlYnA"
+        },
+        {
+          "name": "Chicken Wings",
+          "description": "Spicy chicken wings served with dip",
+          "price": 6.0,
+          "rating": 4.7,
+          "image": "https://imgs.search.brave.com/AYQ4CX_iFrXmBp2wOG2mjSeenZE_zVIq5mF4_SSeV9A/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90YXN0/ZXNiZXR0ZXJmcm9t/c2NyYXRjaC5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTQv/MDkvQmFrZWQtQ2hp/Y2tlbi1XaW5ncy0z/LTUwMHg1MDAuanBn"
+        },
+        {
+          "name": "Mozzarella Sticks",
+          "description": "Fried mozzarella cheese sticks",
+          "price": 4.5,
+          "rating": 4.4,
+          "image": "https://imgs.search.brave.com/FgJ1Jp7184nQL2WXDd5b4KQ2P-3bzMArLyDOGXGUU5E/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU1/Mzg2NzkxL3Bob3Rv/L21venphcmVsbGEt/c3RpY2tzLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1LVFNJ/cFFBejVJN2ZaaW1N/QVdtN0E1YmVsMDNo/cHhhYkVMUWVzTDdG/YVd3PQ"
+        },
+        {
+          "name": "Spring Rolls",
+          "description": "Vegetable spring rolls served with sauce",
+          "price": 4.0,
+          "rating": 4.2,
+          "image": "https://imgs.search.brave.com/J4B7dhZEGzvKNWXpYeXXlxZimCoIn0CTaBg0SpQVSKw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aW5kaWFuaGVhbHRo/eXJlY2lwZXMuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDEz/LzEyL3NwcmluZy1y/b2xscy53ZWJw"
+        },
+        {
+          "name": "Stuffed Jalapenos",
+          "description": "Jalapenos stuffed with cheese and fried",
+          "price": 5.5,
+          "rating": 4.5,
+          "image": "https://imgs.search.brave.com/Lwe4-kvi_JuosSQ75Id7XCTTt4UXwOcxJ2n9gMmlkII/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YWxscmVjaXBlcy5j/b20vdGhtYi9KYkdJ/azlLaVRoa3ExQUdC/dW5feEJxVTJzcUU9/LzB4NTEyL2ZpbHRl/cnM6bm9fdXBzY2Fs/ZSgpOm1heF9ieXRl/cygxNTAwMDApOnN0/cmlwX2ljYygpLzgz/NTAwLXNhdXNhZ2Ut/c3R1ZmZlZC1qYWxh/cGVub3MtRERNRlMt/NHgzLWNmYTg3YTc3/MDQ1NjQ3YWJhNTE0/NWE1MjE4OTRkYTkz/LmpwZw"
+        },
+        {
+          "name": "Caprese Salad",
+          "description": "Fresh tomatoes, mozzarella, and basil",
+          "price": 5.0,
+          "rating": 4.6,
+          "image": "https://imgs.search.brave.com/6WxXhONlRbAeuVa1ldyxNt6QhMAJBw-tiYL-iemo5Tk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aW5zcGlyZWR0YXN0/ZS5uZXQvd3AtY29u/dGVudC91cGxvYWRz/LzIwMTkvMDgvQ2Fw/cmVzZS1TYWxhZC1S/ZWNpcGUtMS0xMjAw/LmpwZw"
+        },
+        {
+          "name": "Nachos",
+          "description": "Tortilla chips with cheese and jalapenos",
+          "price": 4.5,
+          "rating": 4.3,
+          "image": "https://imgs.search.brave.com/wWlklaB7LDDEYAhVsxkjmy9F9oMORpVvGjZOS5IjhcU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzgyLzkxLzky/LzM2MF9GXzgyOTE5/MjUwX3FVOUJsTk9K/dWRjMjVPZVludHhW/SjhUNHBDR29Sclc3/LmpwZw"
+        },
+        {
+          "name": "Deviled Eggs",
+          "description": "Hard-boiled eggs filled with seasoned yolk",
+          "price": 3.0,
+          "rating": 4.1,
+          "image": "https://imgs.search.brave.com/3G6Jqx8U4LGIiuL4Tz81ghotMpFoZsrxBUVYc9323P8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c291dGhlcm5saXZp/bmcuY29tL3RobWIv/bGFiQ293ZGtwb2xI/dnJMbXctLUNhdndL/NE5vPS8xNTAweDAv/ZmlsdGVyczpub191/cHNjYWxlKCk6bWF4/X2J5dGVzKDE1MDAw/MCk6c3RyaXBfaWNj/KCkvRGV2aWxlZF9F/Z2dzXzAxM19wcmV2/aWV3X3NjYWxlXzEw/MF9wcGlfMTUwX3F1/YWxpdHlfMTAwLTI3/MmFhZDYwZDk3NDQ3/ZTk5N2NlZGY4NDcx/NWVhZGI3LmpwZw"
+        }
+      ]
+    },
+    {
+      "section": "Main Course",
+      "items": [
+        {
+          "name": "Margherita Pizza",
+          "description": "Classic pizza with tomato, mozzarella, and basil",
+          "price": 8.0,
+          "rating": 4.7,
+          "image": "https://imgs.search.brave.com/APAz5n_MKX6MdOLMVDB26Rw8VoqeQFZn43-1yTYQzdM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjA0/ODI5MjI0L3Bob3Rv/L21hcmdoZXJpdGEt/cGl6emEuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPUFMRF9o/ZEJwX2xubEZRZnpP/cC1feWpQdGc1U2Jx/NVAxaEhHbTMwdDNI/WWM9"
+        },
+        {
+          "name": "Spaghetti Carbonara",
+          "description": "Pasta with eggs, cheese, pancetta, and pepper",
+          "price": 9.5,
+          "rating": 4.6,
+          "image": "https://imgs.search.brave.com/2v2Xtn1Pq1UgacLbyKWY25XHfe9JW2ER7-VKbAxhO4Q/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwMS5ueXQuY29t/L2ltYWdlcy8yMDIx/LzAyLzE0L2Rpbmlu/Zy9jYXJib25hcmEt/aG9yaXpvbnRhbC9j/YXJib25hcmEtaG9y/aXpvbnRhbC1hcnRp/Y2xlTGFyZ2UtdjIu/anBnP3dpZHRoPTEy/ODAmcXVhbGl0eT03/NSZhdXRvPXdlYnA"
+        },
+        {
+          "name": "Grilled Salmon",
+          "description": "Grilled salmon with lemon and herbs",
+          "price": 12.0,
+          "rating": 4.8,
+          "image": "https://imgs.search.brave.com/G_sOboQEVzIaccq_SvlHD0KMw2Da2LnSqNDIEcN4jWg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2ltcGx5cmVjaXBl/cy5jb20vdGhtYi9G/a0xUNmlaRmxpdVJP/SU5wRW4xS1lEQ1FU/X3M9LzE1MDB4MC9m/aWx0ZXJzOm5vX3Vw/c2NhbGUoKTptYXhf/Ynl0ZXMoMTUwMDAw/KTpzdHJpcF9pY2Mo/KS9fX29wdF9fYWJv/dXRjb21fX2NvZXVz/X19yZXNvdXJjZXNf/X2NvbnRlbnRfbWln/cmF0aW9uX19zaW1w/bHlfcmVjaXBlc19f/dXBsb2Fkc19fMjAw/OV9fMDZfX2Vhc3kt/Z3JpbGxlZC1zYWxt/b24tbWV0aG9kLTYw/MC00YS1hNjU1NDgx/MmFkNDE0ZmEwYTNj/ODk3NTFhNDY2Y2Fm/NC5qcGc"
+        },
+        {
+          "name": "Beef Steak",
+          "description": "Juicy beef steak with garlic butter",
+          "price": 15.0,
+          "rating": 4.9,
+          "image": "https://imgs.search.brave.com/dlHATTzY-QPByNy3rtrjLQbqwmF4e7X3nZBJAHp7-5g/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTM2/NjEwOTY0L3Bob3Rv/L2JlZWYtc3RlYWsu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PURlN1pta1F6MHZi/SWV0ZVpiYlRreHFV/NTZVSFRwc0ozZnds/R0FfREJZRFU9"
+        },
+        {
+          "name": "Chicken Alfredo",
+          "description": "Pasta with creamy Alfredo sauce and chicken",
+          "price": 10.0,
+          "rating": 4.7,
+          "image": "https://imgs.search.brave.com/9BxcjpK7i549j0Dvbal3i99gVgQLRXbr9REtKAlyJE8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9kZWxp/c2gtMjIxMTMwLXBl/cmZlY3QtY2hpY2tl/bi1hbGZyZWRvLTA2/ODktZWItMTY3MDQ0/OTk5Ni5qcGc_Y3Jv/cD0xLjAweHc6MC43/Mzd4aDswLDAuMTM0/eGgmcmVzaXplPTk4/MDoq"
+        },
+        {
+          "name": "Vegetable Stir Fry",
+          "description": "Mixed vegetables stir-fried with soy sauce",
+          "price": 7.5,
+          "rating": 4.5,
+          "image": "https://imgs.search.brave.com/ssObVx4jpDeBxYHDv5GBvZPVAFERIXP7tu2q45hQJXs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90aGVy/ZWNpcGVjcml0aWMu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE5LzA4L3ZlZ2V0/YWJsZV9zdGlyX2Zy/eS5qcGc"
+        },
+        {
+          "name": "Lamb Chops",
+          "description": "Grilled lamb chops with rosemary",
+          "price": 14.0,
+          "rating": 4.8,
+          "image": "https://imgs.search.brave.com/vwrNcGKw33gpr26teRMejTwOOLHIM1NJyYS978wsxJM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJpbWF2ZXJha2l0/Y2hlbi5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTkvMDUv/R2FybGljLUJ1dGVy/LUxhbWItQ2hvcHMt/UHJpbWF2ZXJhLUtp/dGNoZW4tMy5qcGc"
+        },
+        {
+          "name": "Vegetarian Lasagna",
+          "description": "Lasagna with layers of vegetables and cheese",
+          "price": 9.0,
+          "rating": 4.6,
+          "image": "https://imgs.search.brave.com/PO1S3aC-xMIq4WyCI5sNowpXuJCyW7iXAnsf4W7wWLQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YWxscmVjaXBlcy5j/b20vdGhtYi9vdl9R/STRmSzhGN1Q5eGlY/cm4tRV9KQzRVUFk9/LzE1MDB4MC9maWx0/ZXJzOm5vX3Vwc2Nh/bGUoKTptYXhfYnl0/ZXMoMTUwMDAwKTpz/dHJpcF9pY2MoKS82/MjA1NjAtOGZmZWVk/NjY3YjQxNDRkM2Fj/ZDRiOWU2M2QwN2Mw/MTMuanBn"
+        },
+        {
+          "name": "BBQ Ribs",
+          "description": "Pork ribs with barbecue sauce",
+          "price": 13.0,
+          "rating": 4.8,
+          "image": "https://imgs.search.brave.com/vEgJXSPgRg8zKYzVXbZPJx5VjWwKhGZ0XUvAJWYLhNk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cmVjaXBldGluZWF0/cy5jb20vdGFjaHlv/bi8yMDE2LzAxL092/ZW4tUG9yay1SaWJz/LXdpdGgtQmFyYmVj/dWUtU2F1Y2VfNS5q/cGc"
+        },
+        {
+          "name": "Chicken Curry",
+          "description": "Spicy chicken curry with rice",
+          "price": 11.0,
+          "rating": 4.7,
+          "image": "https://imgs.search.brave.com/cj_e7CkW9adLcm1KAJDlNLRn7NXiz_9qSe8r78bQGL4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTEy/NDk3Mzc2NS9waG90/by9jaGlja2VuLWN1/cnJ5LmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1ZVGpQR2xm/dlQ3cEhpeTFSWDha/Y29pelNkVUVFOW9j/T0FFRjY1SDRRZ0pB/PQ"
+        }
+      ]
+    },
+    {
+      "section": "Desserts",
+      "items": [
+        {
+          "name": "Tiramisu",
+          "description": "Coffee-flavored Italian dessert",
+          "price": 5.5,
+          "rating": 4.8,
+          "image": "https://imgs.search.brave.com/lGc-Va2wKI7rcbYYcOLLOwHzgnvF8l7Syv9NnGxLikU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzEwLzA0LzU2/LzM2MF9GXzExMDA0/NTY0N19HMmRJaUFQ/eHQ4Rzdvbk5oYXhG/NW5EQ2FMMEhUeEtz/NC5qcGc"
+        },
+        {
+          "name": "Panna Cotta",
+          "description": "Creamy dessert with a hint of vanilla",
+          "price": 6.0,
+          "rating": 4.7,
+          "image": "https://imgs.search.brave.com/Y6DqJu6fhP16WPh6QAA0h4Vxy91GXJT24N2qfX4nVnI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGF2aWRsZWJvdml0/ei5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMDkvMDQvUGFu/bmEtY290dGEtcmVj/aXBlLTQtNjQweDg5/Ny5qcGc"
+        },
+        {
+          "name": "Chocolate Cake",
+          "description": "Rich and moist chocolate cake",
+          "price": 4.5,
+          "rating": 4.9,
+          "image": "https://imgs.search.brave.com/KNaFDy7Z0hYJJUvJho2HPAEphaFz9d3vgCyJlwOXQ0k/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTgw/NzUxMTQ5L3Bob3Rv/L2Nob2NvbGF0ZS1j/YWtlLWNsb3NlLXVw/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz0zRmNhdDlXSnRn/dDl3Sy1sQ0RpLUx1/bzNtMU5ubFk0dThs/bUpSM21MeXZ3PQ"
+        },
+        {
+          "name": "Cheesecake",
+          "description": "Classic cheesecake with a graham cracker crust",
+          "price": 5.0,
+          "rating": 4.8,
+          "image": "https://imgs.search.brave.com/hFTF8sx-nJjMC4sfFTpWLXEwhkPoN_G4ZSd1NqeGwAA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU3/NjM5NTIzL3Bob3Rv/L2NoZWVzZWNha2Uu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PVJ4T3pKaUVNN1lC/b21jeUpaeTg2MWs1/OEhKc0hJRlctdmYz/SUEtVEtuUzg9"
+        },
+        {
+          "name": "Apple Pie",
+          "description": "Warm apple pie with cinnamon",
+          "price": 4.0,
+          "rating": 4.7,
+          "image": "https://imgs.search.brave.com/4KWe0OQXwXoMM4_WS8AO631vsp7yFP6bJC_NNGfThQU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDcx/NDQ2OTg5L3Bob3Rv/L2FwcGxlLXBpZS5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/enZlSWVFTzFpVTlx/YmtaOWl4LUNJXzBW/NTR1eWZuc3JfMjhz/MGEteXlnQT0"
+        },
+        {
+          "name": "Brownies",
+          "description": "Fudgy chocolate brownies",
+          "price": 3.5,
+          "rating": 4.6,
+          "image": "https://imgs.search.brave.com/EMPgR4fgd9ys0p7Y8EfTYqPsRvvAfq12w6OfRE6e5C4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTIx/OTYzNDIvcGhvdG8v/YnJvd25pZXMuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPWFV/V3doU05QQVJ3NkU2/ckFxLVZIeUVFY3p5/WUhzU0NQQ1k5NUZq/cUJvTjg9"
+        },
+        {
+          "name": "Ice Cream Sundae",
+          "description": "Ice cream with chocolate sauce and nuts",
+          "price": 4.5,
+          "rating": 4.8,
+          "image": "https://imgs.search.brave.com/qLpycICBUEjIOaZbhy_MgVPqKp0T34xlDT31cXhyKFs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvODI1/NzQ2MDA2L3Bob3Rv/L2ljZS1jcmVhbS1z/dW5kYWUtaW4tYmln/LWJvd2wuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPVlaeGhV/Y2g2bFJiY3NsbTIw/TFA0Q3pZZEJKOXYt/aDJnZG9OMnpfZExV/bkE9"
+        },
+        {
+          "name": "Creme Brulee",
+          "description": "Custard dessert with a caramelized sugar top",
+          "price": 6.5,
+          "rating": 4.9,
+          "image": "https://imgs.search.brave.com/iZEKRBz8-L9APtpiWP2Ya6b56wLGAhinsIL6tGS6b-I/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI0/MDI2MDYzL3Bob3Rv/L2NyZW1lLWJydWxl/ZS5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9a0g3V252d2RZ/UktVZF91ODhSR1Jv/aWFWUWRqLWdCR0hG/WVFhQThGa29kND0"
+        },
+        {
+          "name": "Fruit Tart",
+          "description": "Tart filled with cream and fresh fruits",
+          "price": 5.0,
+          "rating": 4.7,
+          "image": "https://imgs.search.brave.com/CSlQ-5Ql3t5LEd9yrXDh3AOCRaMPNwZJPADk6n5vJCs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU3/NjEwNjgxL3Bob3Rv/L2ZydWl0LXRhcnQu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PU5ORWtsbkZ3eThw/OWFaYTBlMHc4cU9q/dERtVU5UV01fUnp3/N3ZBVndCbzQ9"
+        },
+        {
+          "name": "Lemon Meringue Pie",
+          "description": "Pie with lemon filling and meringue topping",
+          "price": 5.5,
+          "rating": 4.8,
+          "image": "https://imgs.search.brave.com/HMy_nKurHCxnJzZjFVlMYF02r1rc9yngA5GKpfhJx8M/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTA5/NzIyMTQ3L3Bob3Rv/L2xlbW9uLW1lcmlu/Z3VlLXBpZS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9T2ZI/R3h3dVV1c2xkeHpM/aXc2ZUw4SlNfSnY1/S0NaTXFMb1laWjNm/MDB6OD0"
+        }
+      ]
+    },
+    {
+      "section": "Beverages",
+      "items": [
+        {
+          "name": "Espresso",
+          "description": "Strong and rich Italian coffee",
+          "price": 2.0,
+          "rating": 4.6,
+          "image": "https://imgs.search.brave.com/ZNbcgjY0uEkJyFmqXsYsm0_bSbM4UoAXzeMQ1mgojxQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTgy/NzE3NzQ2L3Bob3Rv/L2VzcHJlc3NvLWNv/ZmZlZS1jdXAtY29s/b3ItaW1hZ2UuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPUxH/ZVlsTTBoMzFyYlFk/RmdZZHQ4ODM4Nmx3/NzFwVS02SThfeTVY/RE5YdjQ9"
+        },
+        {
+          "name": "Lemonade",
+          "description": "Freshly squeezed lemon juice with sugar and water",
+          "price": 3.0,
+          "rating": 4.4,
+          "image": "https://imgs.search.brave.com/OKcri-JxEq93NwM5ZSmyj8pLTKVjyYWfgCjCRmVimXM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM2/NDQ2MTgzNC9waG90/by9mcmVzaGx5LW1h/ZGUtbGVtb25hZGUu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PXV5Rld5d2JSZ21l/UTQ5RVhzRXNHUUVj/WnNqOTg4STRkYnR6/MV9qSm5lTXc9"
+        },
+        {
+          "name": "Iced Tea",
+          "description": "Refreshing iced tea with lemon",
+          "price": 2.5,
+          "rating": 4.5,
+          "image": "https://imgs.search.brave.com/kEUxyFkN0cKt2e0fuPtGgmFbKz5x3Kspiimsb0Ay6Tw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTgy/NzQ5ODY2L3Bob3Rv/L2ljZS10ZWEtcGl0/Y2hlci1hbmQtZ2xh/c3MuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWxfa1dlR0xl/R3VpSnBHbm5DSlY4/TU1ma2htcHo2bk1K/Qk5CSG5xb1FzUDA9"
+        },
+        {
+          "name": "Mango Smoothie",
+          "description": "Creamy mango smoothie",
+          "price": 4.0,
+          "rating": 4.7,
+          "image": "https://imgs.search.brave.com/kWGb2KbL4H82hApgrEMNUbalYCLHdjWFdTh85qClPRA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAyLzI4LzI1LzQx/LzM2MF9GXzIyODI1/NDEyOF9CR3dxdjF6/UlZFeHpiOTNQZU1C/b1NVQnU1RTJONEVm/Ni5qcGc"
+        },
+        {
+          "name": "Hot Chocolate",
+          "description": "Warm and rich hot chocolate",
+          "price": 3.5,
+          "rating": 4.6,
+          "image": "https://imgs.search.brave.com/1SuqU7Rr7UlPA-89t8TrXEr5Eq8XJN0tryanG8QAWlA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNi8x/MC8zMC8wOS8zMC9o/b3QtY2hvY29sYXRl/LTE3ODI2MjNfNjQw/LmpwZw"
+        },
+        {
+          "name": "Green Tea",
+          "description": "Healthy green tea",
+          "price": 2.0,
+          "rating": 4.3,
+          "image": "https://imgs.search.brave.com/Gjx4CAst2zegRTXd7CBmbMeWNgwBib5lHhTwT5ScV2Q/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTg0/OTQ4Nzk3L3Bob3Rv/L2dyZWVuLXRlYS5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/ZTNkT0J1NUl4b3NZ/LTE4ZzFxQmpHMTVh/d0NheTF2T2NiTDRG/TlNUSHhrTT0"
+        },
+        {
+          "name": "Latte",
+          "description": "Smooth coffee with milk",
+          "price": 3.0,
+          "rating": 4.5,
+          "image": "https://imgs.search.brave.com/eTe_pFHeFv7lv3FbJdE0zEGzxy1X8bshmuIg9uEvmLk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90aGVo/dW1hbmJlYW4uY29t/L2Nkbi9zaG9wL2Fy/dGljbGVzL3V3S2FW/T1djLmpwZz92PTE2/NzgxMzM1MDAmd2lk/dGg9MTEwMA"
+        },
+        {
+          "name": "Orange Juice",
+          "description": "Freshly squeezed orange juice",
+          "price": 3.5,
+          "rating": 4.6,
+          "image": "https://imgs.search.brave.com/VuLbbAdezYJ_w_l2IuZ0DRFPfw0amWx0cPJ3RBRMWEw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU0/OTAyMzI3L3Bob3Rv/L29yYW5nZS1qdWlj/ZS5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9ZEYtRUxrQ0FL/eGlHVlMwS0NwZE9E/UnBXdGgybkVqMVRI/amtaZk1YNFgyWT0"
+        },
+        {
+          "name": "Milkshake",
+          "description": "Thick milkshake with your choice of flavor",
+          "price": 4.0,
+          "rating": 4.7,
+          "image": "https://imgs.search.brave.com/7yh5OfdS-h2pgLqkXqk9lKyGAYfASr1L7pjV2tstoEw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAwLzYzLzU5Lzk1/LzM2MF9GXzYzNTk5/NTc1X1hwMkV0MmVD/YTdwRWJyenBKS2cz/SEl5S1Uxamk0UEZS/LmpwZw"
+        },
+        {
+          "name": "Mineral Water",
+          "description": "Bottled mineral water",
+          "price": 1.5,
+          "rating": 4.2,
+          "image": "https://imgs.search.brave.com/QgzaVyiwDyXR-NNS46wMQrHK-WLsdGQ8YXYcpj1CweU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM1/Njc0MDkwMy9waG90/by9wbGFzdGljLXdh/dGVyLWJvdHRsZS5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/YlcwdnpPV3BJUW1I/TGdVMlhOVktjcG5E/LU96cEtVdjJzVER2/TFF0aVdodz0"
+        }
+      ]
+    }
+  ],
+
+  "restaurants": [
+    {
+      "info": {
+        "id": "344287",
+        "name": "Varalakshmi Tiffins",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/c75ff48c-b373-4733-8126-e3180cbb0fa0_344287.jpg",
+        "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/c75ff48c-b373-4733-8126-e3180cbb0fa0_344287.jpg",
+        "locality": "Banjara Hills",
+        "areaName": "Filmnagar",
+        "costForTwo": "₹300 for two",
+        "cuisines": ["South Indian"],
+        "avgRating": 4.5,
+        "veg": true,
+        "parentId": "6482",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 49,
+          "lastMileTravel": 8.2,
+          "serviceability": "SERVICEABLE",
+          "slaString": "45-50 mins",
+          "lastMileTravelString": "8.2 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-29 11:59:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "Rxawards/_CATEGORY-South%20Indian.png",
+              "description": "Delivery!"
+            },
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "Delivery!",
+                    "imageId": "Rxawards/_CATEGORY-South%20Indian.png"
+                  }
+                },
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹150 OFF",
+          "subHeader": "ABOVE ₹349",
+          "discountTag": "FLAT DEAL"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/varalakshmi-tiffins-banjara-hills-filmnagar-hyderabad-344287",
+        "type": "WEBLINK"
+      },
+      "menu":{}
+      
+    },
+    {
+      "info": {
+        "id": "30253",
+        "name": "Agra Sweets Banjara",
+        "cloudinaryImageId": "nav4ebkoxrwlladx7a5m",
+        "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/nav4ebkoxrwlladx7a5m",
+        "locality": "Utkoor- Mogdumpur road",
+        "areaName": "Rambagh Colony",
+        "costForTwo": "₹250 for two",
+        "cuisines": ["Sweets", "Desserts", "Chaat", "Snacks", "Beverages"],
+        "avgRating": 4.3,
+        "veg": true,
+        "parentId": "34",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 23,
+          "lastMileTravel": 3.5,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-25 mins",
+          "lastMileTravelString": "3.5 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-29 23:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ],
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "30% OFF",
+          "subHeader": "UPTO ₹75"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/agra-sweets-banjara-utkoor-mogdumpur-road-rambagh-colony-hyderabad-30253",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "6498",
+        "name": "Hotel Sandarshini",
+        "cloudinaryImageId": "9f5783b9975a73ec001560327065a01c",
+        "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/9f5783b9975a73ec001560327065a01c",
+        "locality": "Masab Tank",
+        "areaName": "Masab Tank",
+        "costForTwo": "₹200 for two",
+        "cuisines": ["Chinese", "South Indian", "Juices"],
+        "avgRating": 4.5,
+        "parentId": "476",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 31,
+          "lastMileTravel": 5,
+          "serviceability": "SERVICEABLE",
+          "slaString": "30-35 mins",
+          "lastMileTravelString": "5.0 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-29 22:30:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ]
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {},
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/hotel-sandarshini-masab-tank-hyderabad-6498",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "362596",
+        "name": "Burger King",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/cab874d5-c7ed-4122-9eb9-935992f4bcee_362596.JPG",
+        "imageId": "https://imgs.search.brave.com/O7NsAwt5x7YWKDj39Ws8e1Xnn6XA__j926XzbNDdtBY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dGhlbWFyeXN1ZS5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjIvMDYvUHJpZGUt/V2hvcHBlci5qcGc_/Zml0PTEyMDAsNjc1",
+        "locality": "M Cube Mall",
+        "areaName": "Attapur",
+        "costForTwo": "₹350 for two",
+        "cuisines": ["Burgers", "American"],
+        "avgRating": 4.1,
+        "parentId": "166",
+        "avgRatingString": "4.1",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 25,
+          "lastMileTravel": 1.4,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-30 mins",
+          "lastMileTravelString": "1.4 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 03:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "Rxawards/_CATEGORY-Burger.png",
+              "description": "Delivery!"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "Delivery!",
+                    "imageId": "Rxawards/_CATEGORY-Burger.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "50% OFF",
+          "subHeader": "UPTO ₹100"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/burger-king-m-cube-mall-attapur-hyderabad-362596",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "566277",
+        "name": "Faasos' Signature Wraps & Rolls",
+        "cloudinaryImageId": "c583ca6ce40b426797a78ae2ac91f2ec",
+        "imageId": "https://imgs.search.brave.com/5XO08DMJddvkMX6-1cOKdtsaRh7sbszwTdV1Cj64Xh8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cmViZWxmb29kcy5j/b20vaW1hZ2VzL2hv/bWVwYWdlL0ZhYXNv/cy5wbmc",
+        "locality": "Ground floor, Mehdipatnam (Behind Mina Hospital)",
+        "areaName": "Humayun Nagar",
+        "costForTwo": "₹350 for two",
+        "cuisines": [
+          "Fast Food",
+          "Snacks",
+          "North Indian",
+          "Desserts",
+          "Beverages"
+        ],
+        "avgRating": 3.6,
+        "parentId": "340366",
+        "avgRatingString": "3.6",
+        "totalRatingsString": "20+",
+        "sla": {
+          "deliveryTime": 34,
+          "lastMileTravel": 2.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "30-35 mins",
+          "lastMileTravelString": "2.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-29 23:59:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "50% OFF",
+          "subHeader": "UPTO ₹100"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/faasos-signature-wraps-and-rolls-ground-floor-mehdipatnam-behind-mina-hospital-humayun-nagar-hyderabad-566277",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "263727",
+        "name": "Pure Veg Meals by LunchBox",
+        "cloudinaryImageId": "xenk3zbrmchnqq3yn7n2",
+        "imageId": "https://imgs.search.brave.com/TPYb9aIM01bsMdRHLoM3r6SC4mMqSJo8XRddhXd8P0s/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWF0aW5nd2VsbC5j/b20vdGhtYi9FaWVQ/aV9XNEI5dEVUbkNX/azhpckh5SzlBWVk9/LzE1MDB4MC9maWx0/ZXJzOm5vX3Vwc2Nh/bGUoKTptYXhfYnl0/ZXMoMTUwMDAwKTpz/dHJpcF9pY2MoKS9O/TUQtQ3VjdW1iZXIt/SHVtbXVzLVBpdGEt/QmVudG8tQm94LUx1/bmNoLTF4MS0xLTIw/MDAtNjY2ZmQxYTJm/N2I4NDJhOTk3ZTgw/YzVjNTY0NTQ5MGYu/anBn",
+        "locality": "Ground floor, Mehdipatnam (Behind Mina Hospital)",
+        "areaName": "Humayun Nagar",
+        "costForTwo": "₹200 for two",
+        "cuisines": ["Biryani", "North Indian", "Desserts", "Beverages"],
+        "avgRating": 4.3,
+        "parentId": "21938",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 35,
+          "lastMileTravel": 2.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "35-40 mins",
+          "lastMileTravelString": "2.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-29 23:59:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "ITEMS",
+          "subHeader": "AT ₹159"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/pure-veg-meals-by-lunchbox-ground-floor-mehdipatnam-behind-mina-hospital-humayun-nagar-hyderabad-263727",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "378344",
+        "name": "Theobroma",
+        "cloudinaryImageId": "63dd75492c47fcec191132b8eb299ea5",
+        "imageId": "https://imgs.search.brave.com/8Z1QpK4db-ZWrET07-_wqK3ut5tPeK2fC0A0APzV-zI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbTEu/ZGluZW91dC5jby5p/bi9pbWFnZXMvdXBs/b2Fkcy9yZXN0YXVy/YW50L3NoYXJwZW4v/Ny92L2svcDc1MzMt/MTY1ODU2ODYzNTYy/ZGJiZmJiYzRhYTcu/anBnP3RyPXRyOm4t/bWVkaXVt",
+        "locality": "Banjara Hills",
+        "areaName": "Banjara Hills",
+        "costForTwo": "₹400 for two",
+        "cuisines": ["Desserts"],
+        "avgRating": 4.5,
+        "parentId": "1040",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 32,
+          "lastMileTravel": 6.4,
+          "serviceability": "SERVICEABLE",
+          "slaString": "30-35 mins",
+          "lastMileTravelString": "6.4 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-29 23:59:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "20% OFF",
+          "discountTag": "FLAT DEAL"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/theobroma-banjara-hills-hyderabad-378344",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "662646",
+        "name": "Starbucks Coffee",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/3/4551821b-8035-424a-8829-3f22471e4422_662646.JPG",
+        "imageId": "https://imgs.search.brave.com/94YvZXoVo7u7VDE3sOSx5m_1iT8W8htwrSaftkKj4Kg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzBhLzc2/LzhmLzBhNzY4ZmU2/NjRkNWZhZTFlMmI5/NWUyZGM4YzkxNGQ3/LmpwZw",
+        "locality": "Bhola Nagar",
+        "areaName": "Banjara Green Colony",
+        "costForTwo": "₹400 for two",
+        "cuisines": [
+          "Beverages",
+          "Cafe",
+          "Snacks",
+          "Desserts",
+          "Bakery",
+          "Ice Cream"
+        ],
+        "avgRating": 4.4,
+        "parentId": "195515",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "500+",
+        "sla": {
+          "deliveryTime": 35,
+          "lastMileTravel": 6.3,
+          "serviceability": "SERVICEABLE",
+          "slaString": "35-40 mins",
+          "lastMileTravelString": "6.3 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-29 23:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "Rxawards/_CATEGORY-Cafe%20&%20Chai.png",
+              "description": "Delivery!"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "Delivery!",
+                    "imageId": "Rxawards/_CATEGORY-Cafe%20&%20Chai.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "20% OFF",
+          "subHeader": "UPTO ₹50"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/starbucks-coffee-bhola-nagar-banjara-green-colony-hyderabad-662646",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "228215",
+        "name": "Cafe Niloufer Premium Lounge",
+        "cloudinaryImageId": "8407ef45d6d2283bf18037c3619cb733",
+        "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/8407ef45d6d2283bf18037c3619cb733",
+        "locality": "Banjara Hills",
+        "areaName": "Banjara Hills",
+        "costForTwo": "₹200 for two",
+        "cuisines": ["Bakery", "Beverages", "Snacks", "Desserts"],
+        "avgRating": 4.6,
+        "parentId": "392382",
+        "avgRatingString": "4.6",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 47,
+          "lastMileTravel": 8,
+          "serviceability": "SERVICEABLE",
+          "slaString": "45-50 mins",
+          "lastMileTravelString": "8.0 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-29 23:45:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {},
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/cafe-niloufer-premium-lounge-banjara-hills-hyderabad-228215",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "7203",
+        "name": "Taj Mahal-Abids",
+        "cloudinaryImageId": "8aa874a03b5bd0804b6781b1fd13f02d",
+        "imageId": "https://lh3.googleusercontent.com/IkyknfL_K3KL-as4lqQ66y3ssFFNvIcS-3WagTa6-ZzO0YT7gHB_dVt8fMjXhEBk8ryAHACVzUu_IVS8uUmqrhEcvSSG=w1200-rw",
+        "locality": "Abids",
+        "areaName": "Abids",
+        "costForTwo": "₹400 for two",
+        "cuisines": ["South Indian", "North Indian", "Biryani", "Snacks"],
+        "avgRating": 4.5,
+        "parentId": "924",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 44,
+          "lastMileTravel": 6.3,
+          "serviceability": "SERVICEABLE",
+          "slaString": "40-45 mins",
+          "lastMileTravelString": "6.3 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-29 23:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ]
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {},
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/taj-mahal-abids-abids-hyderabad-7203",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "112603",
+        "name": "Udipi's Upahar",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/23/a2e074a4-702f-4caa-aa8c-b59716e78de0_112603.JPG",
+        "imageId": "https://imgs.search.brave.com/vPw-c3IxRZ-DP5A0glBoMoRJM5kDENgTlenXmY5kpaU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9mYXN0/bHkuNHNxaS5uZXQv/aW1nL2dlbmVyYWwv/MjAweDIwMC9iUEhw/QkU5X0phMHNUZ3h6/bVhCSlJwcU05bGdT/TzE2V1pFMFVreW14/SkgwLmpwZw",
+        "locality": "Manikonda",
+        "areaName": "Muppas Panchavati Colony",
+        "costForTwo": "₹250 for two",
+        "cuisines": ["South Indian", "North Indian", "Biryani", "Chinese"],
+        "avgRating": 4.3,
+        "veg": true,
+        "parentId": "1061",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 54,
+          "lastMileTravel": 9.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "50-55 mins",
+          "lastMileTravelString": "9.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-29 22:30:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹75 OFF",
+          "subHeader": "ABOVE ₹349",
+          "discountTag": "FLAT DEAL"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/udipis-upahar-manikonda-muppas-panchavati-colony-hyderabad-112603",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "262087",
+        "name": "Imperial Multi-Cusine Restaurant",
+        "cloudinaryImageId": "rqlwvsmzcfxbg9u6ajgm",
+        "imageId": "https://imgs.search.brave.com/bs_JMl4JfT6Fm0Nd7chKz7sJixuQMouKS0f-6wEzrOs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmpkbWFnaWNi/b3guY29tL2NvbXAv/ZGVmX2NvbnRlbnRf/Y2F0ZWdvcnkvcmVz/dGF1cmFudHMtYW5k/LWJhcnMvZXpnaWYt/Mi1kNTFhNThhOGZj/LXJlc3RhdXJhbnRz/LWFuZC1iYXJzLTgt/djJ3bWouanBnP3c9/Mzg0MCZxPTc1",
+        "locality": "Banjara Hills",
+        "areaName": "Redhills",
+        "costForTwo": "₹400 for two",
+        "cuisines": ["Biryani", "Chinese", "Indian", "Kebabs", "Tandoor"],
+        "avgRating": 4.2,
+        "parentId": "19254",
+        "avgRatingString": "4.2",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 40,
+          "lastMileTravel": 5.5,
+          "serviceability": "SERVICEABLE",
+          "slaString": "40-45 mins",
+          "lastMileTravelString": "5.5 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-29 23:59:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "40% OFF",
+          "subHeader": "UPTO ₹80"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/imperial-multi-cusine-restaurant-banjara-hills-redhills-hyderabad-262087",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "27739",
+        "name": "Cafe Niloufer Classic",
+        "cloudinaryImageId": "1171b83d63d7c203e5f1c3e16980cd89",
+        "imageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/8407ef45d6d2283bf18037c3619cb733",
+        "locality": "Oshiwara",
+        "areaName": "Red Hills",
+        "costForTwo": "₹150 for two",
+        "cuisines": ["Bakery", "Beverages", "Snacks", "Desserts"],
+        "avgRating": 4.6,
+        "parentId": "466854",
+        "avgRatingString": "4.6",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 37,
+          "lastMileTravel": 5.5,
+          "serviceability": "SERVICEABLE",
+          "slaString": "35-40 mins",
+          "lastMileTravelString": "5.5 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 00:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "Rxawards/_CATEGORY-Cafe%20&%20Chai.png",
+              "description": "Delivery!"
+            }
+          ]
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {},
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "Delivery!",
+                    "imageId": "Rxawards/_CATEGORY-Cafe%20&%20Chai.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/cafe-niloufer-classic-oshiwara-red-hills-hyderabad-27739",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "57903",
+        "name": "Capital Multi Cuisine Restaurant",
+        "cloudinaryImageId": "ijy2jxi7lfwsebdtazpi",
+        "imageId": "https://imgs.search.brave.com/tgQojhAYl8KF-3YHG4bxxpbtzmTq0u3qZY2Cpxq5e3w/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzU4/MGVjYmJjNTAxNmUx/MTg1ZTY1ZDE4NS8x/NDgzNTc0MTA3NDQ0/LUhQUkdJUTFKU1hH/TlA2SDBMS0xBLzIw/X0NhcGl0YWxfRWF0/Q2hpbmF0b3duLmpw/Zw",
+        "locality": "Malakpet",
+        "areaName": "Malakpet",
+        "costForTwo": "₹500 for two",
+        "cuisines": ["Haleem", "Biryani", "Lebanese", "Arabian"],
+        "avgRating": 4,
+        "parentId": "19262",
+        "avgRatingString": "4.0",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 37,
+          "lastMileTravel": 9.4,
+          "serviceability": "SERVICEABLE",
+          "slaString": "35-40 mins",
+          "lastMileTravelString": "9.4 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-07-06 00:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "40% OFF",
+          "subHeader": "UPTO ₹80"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/capital-multi-cuisine-restaurant-malakpet-hyderabad-57903",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "160128",
+        "name": "KS Bakers",
+        "cloudinaryImageId": "6127cb288329ad1c9e988276914d48ad",
+        "imageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQONKTVOgMul8ChAGc-tYbVBfAt0k4xoekJlQ&s",
+        "locality": "Somi Reddy Nagar",
+        "areaName": "Attapur",
+        "costForTwo": "₹300 for two",
+        "cuisines": ["Bakery", "Pizzas", "Desserts", "Snacks", "Fast Food"],
+        "avgRating": 4.1,
+        "parentId": "574",
+        "avgRatingString": "4.1",
+        "totalRatingsString": "5K+",
+        "sla": {
+          "deliveryTime": 21,
+          "lastMileTravel": 1.3,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-25 mins",
+          "lastMileTravelString": "1.3 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-29 22:45:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "v1704784556/Ratnesh_Badges/Listing_2x.png",
+              "shortDescription": "Perfect Cake Delivery",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "v1704784556/Ratnesh_Badges/Listing_2x.png",
+                    "shortDescription": "Perfect Cake Delivery"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹50 OFF",
+          "subHeader": "ABOVE ₹249",
+          "discountTag": "FLAT DEAL"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/ks-bakers-somi-reddy-nagar-attapur-hyderabad-160128",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "34634",
+        "name": "Shah Ghouse Hotel & Restaurant",
+        "cloudinaryImageId": "ks4d93rjtcbitkzkbqx0",
+        "imageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIPkqvm981X1WkD9-o2U3ai9hrUR0G5I01rw&s",
+        "locality": "Tolichowki",
+        "areaName": "Tolichowki",
+        "costForTwo": "₹350 for two",
+        "cuisines": ["Biryani", "Chinese", "Mughlai", "Tandoor"],
+        "avgRating": 4.3,
+        "parentId": "19271",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 32,
+          "lastMileTravel": 4.2,
+          "serviceability": "SERVICEABLE",
+          "slaString": "30-35 mins",
+          "lastMileTravelString": "4.2 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 01:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "Rxawards/_CATEGORY-Biryani.png",
+              "description": "Delivery!"
+            },
+            {
+              "imageId": "Rxawards/_CATEGORY-Mughlai.png",
+              "description": "Delivery!"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "Delivery!",
+                    "imageId": "Rxawards/_CATEGORY-Biryani.png"
+                  }
+                },
+                {
+                  "attributes": {
+                    "description": "Delivery!",
+                    "imageId": "Rxawards/_CATEGORY-Mughlai.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "20% OFF",
+          "subHeader": "UPTO ₹50"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/shah-ghouse-hotel-and-restaurant-tolichowki-hyderabad-34634",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "413629",
+        "name": "CakeZone Patisserie",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/19/bf8ec5dd-9c11-412e-a0d1-e190bbd40637_413629.jpg",
+        "imageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbngjFw7cGhkPYydLabFXvg0f4CSDMFpLdwQ&s",
+        "locality": "SATHYA NARAYAN NAGAR",
+        "areaName": "Opp:Mythri Hospital",
+        "costForTwo": "₹200 for two",
+        "cuisines": ["Bakery", "Desserts", "Sweets", "Ice Cream"],
+        "avgRating": 4.3,
+        "parentId": "7003",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 35,
+          "lastMileTravel": 1.8,
+          "serviceability": "SERVICEABLE",
+          "slaString": "30-35 mins",
+          "lastMileTravelString": "1.8 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 00:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "60% OFF",
+          "subHeader": "UPTO ₹120"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/cakezone-patisserie-sathya-narayan-nagar-opp-mythri-hospital-hyderabad-413629",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "1387",
+        "name": "Flavours of Taj Mahal Hotel",
+        "cloudinaryImageId": "8aa874a03b5bd0804b6781b1fd13f02d",
+        "imageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDpjvGq4w7l1_PFfaczJyNi81giDN_tNfvkA&s",
+        "locality": "Banjara Hills",
+        "areaName": "Jubilee Hills",
+        "costForTwo": "₹400 for two",
+        "cuisines": ["South Indian", "North Indian", "Biryani", "Snacks"],
+        "avgRating": 4.5,
+        "parentId": "80508",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 53,
+          "lastMileTravel": 8.4,
+          "serviceability": "SERVICEABLE",
+          "slaString": "50-55 mins",
+          "lastMileTravelString": "8.4 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-29 23:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {},
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/flavours-of-taj-mahal-hotel-banjara-hills-jubilee-hills-hyderabad-1387",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "734888",
+        "name": "Chaayos Chai+Snacks=Relax",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/f92c604d-68cb-49db-8dec-9473650c363d_734888.JPG",
+        "imageId": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Cappuccino_at_Sightglass_Coffee.jpg/640px-Cappuccino_at_Sightglass_Coffee.jpg",
+        "locality": "Khairatabad Circle No.17",
+        "areaName": "BANJARA HILLS",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+          "Bakery",
+          "Beverages",
+          "Chaat",
+          "Desserts",
+          "Home Food",
+          "Italian",
+          "Maharashtrian",
+          "Snacks",
+          "Street Food",
+          "Sweets"
+        ],
+        "avgRating": 4.3,
+        "parentId": "281782",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 47,
+          "lastMileTravel": 9.6,
+          "serviceability": "SERVICEABLE",
+          "slaString": "45-50 mins",
+          "lastMileTravelString": "9.6 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-29 23:30:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "50% OFF",
+          "subHeader": "UPTO ₹100"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/chaayos-chai-snacks-relax-khairatabad-circle-no-17-banjara-hills-hyderabad-734888",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "345356",
+        "name": "45th Avenue by Karachi Bakery",
+        "cloudinaryImageId": "ghgs526bekwlgps30opk",
+        "imageId": "https://imgs.search.brave.com/tKuZXDAR20dvD37w9PHDcl2ZEKVHoplZNfXOPu1D2qk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFvSnFIcmFsNEwu/anBn",
+        "locality": "Jubilee Hills",
+        "areaName": "45th Avenue ",
+        "costForTwo": "₹700 for two",
+        "cuisines": [
+          "Desserts",
+          "Bakery",
+          "European",
+          "Lebanese",
+          "Asian",
+          "American"
+        ],
+        "avgRating": 4.4,
+        "parentId": "23689",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "5K+",
+        "sla": {
+          "deliveryTime": 58,
+          "lastMileTravel": 10.5,
+          "serviceability": "SERVICEABLE",
+          "slaString": "55-60 mins",
+          "lastMileTravelString": "10.5 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-29 23:59:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹75 OFF",
+          "subHeader": "ABOVE ₹299",
+          "discountTag": "FLAT DEAL"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/45th-avenue-by-karachi-bakery-jubilee-hills-45th-avenue-hyderabad-345356",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "11091",
+        "name": "Pizza Hut",
+        "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+        "imageId": "https://imgs.search.brave.com/HWWcJjkzsgRzW4GIr896Rin5OZI2eAah_iHrZfDZ4QY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNDcx/MzAyOTEzL3Bob3Rv/L3BpenphLWh1dC5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/WXJnUGJnV3Itek8z/SzF4VGI5MXNFSDZF/YWlDbjB1TjhvM0ZR/NmFpSGVtVT0",
+        "locality": "Attapur",
+        "areaName": "Attapur",
+        "costForTwo": "₹350 for two",
+        "cuisines": ["Pizzas"],
+        "avgRating": 4,
+        "parentId": "721",
+        "avgRatingString": "4.0",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 39,
+          "lastMileTravel": 1.4,
+          "serviceability": "SERVICEABLE",
+          "slaString": "35-40 mins",
+          "lastMileTravelString": "1.4 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 04:00:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "ITEMS",
+          "subHeader": "AT ₹189"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/pizza-hut-attapur-hyderabad-11091",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "659668",
+        "name": "UBQ by Barbeque Nation",
+        "cloudinaryImageId": "ffe4084febdec52732dffd3624f4e6c1",
+        "imageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOvW_H7FulKxnyaGiTB2SR-jimObiRaGZGOQ&s",
+        "locality": "COMMERCIAL CENTRE",
+        "areaName": "Attapur",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+          "North Indian",
+          "Barbecue",
+          "Biryani",
+          "Kebabs",
+          "Mughlai",
+          "Desserts"
+        ],
+        "avgRating": 3.7,
+        "parentId": "10804",
+        "avgRatingString": "3.7",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 41,
+          "lastMileTravel": 3.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "40-45 mins",
+          "lastMileTravelString": "3.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 00:00:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "ITEMS",
+          "subHeader": "AT ₹199"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/ubq-by-barbeque-nation-commercial-centre-attapur-hyderabad-659668",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "23734",
+        "name": "McDonald's",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/1/b10564e0-29ed-4c04-bd9a-541289ba74bb_23734.jpg",
+        "imageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvnCW52iaiuALBICvsB9LIz2GCuGbEHcuPGw&s",
+        "locality": "Mehdipatnam",
+        "areaName": "Humayun Nagar",
+        "costForTwo": "₹400 for two",
+        "cuisines": ["Burgers", "Beverages", "Cafe", "Desserts"],
+        "avgRating": 4.2,
+        "parentId": "630",
+        "avgRatingString": "4.2",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 53,
+          "lastMileTravel": 2.8,
+          "serviceability": "SERVICEABLE",
+          "slaString": "50-55 mins",
+          "lastMileTravelString": "2.8 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 02:45:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "Rxawards/_CATEGORY-Burger.png",
+              "description": "Delivery!"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "Delivery!",
+                    "imageId": "Rxawards/_CATEGORY-Burger.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "40% OFF",
+          "subHeader": "UPTO ₹80"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/mcdonalds-mehdipatnam-humayun-nagar-hyderabad-23734",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "30253",
+        "name": "Agra Sweets Banjara",
+        "cloudinaryImageId": "nav4ebkoxrwlladx7a5m",
+        "imageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRQe6CiwaS6hBdtzbgDVMt_Vxq55ANeYhsWA&s",
+        "locality": "Utkoor- Mogdumpur road",
+        "areaName": "Rambagh Colony",
+        "costForTwo": "₹250 for two",
+        "cuisines": ["Sweets", "Desserts", "Chaat", "Snacks", "Beverages"],
+        "avgRating": 4.3,
+        "veg": true,
+        "parentId": "34",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 33,
+          "lastMileTravel": 3.5,
+          "serviceability": "SERVICEABLE",
+          "slaString": "30-35 mins",
+          "lastMileTravelString": "3.5 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-29 23:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ],
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "30% OFF",
+          "subHeader": "UPTO ₹75"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/agra-sweets-banjara-utkoor-mogdumpur-road-rambagh-colony-hyderabad-30253",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "168402",
+        "name": "NIC Ice Creams",
+        "cloudinaryImageId": "18d8b8fb6bac8063a6fa886e20148110",
+        "imageId": "https://imgs.search.brave.com/BjNBBNfryCnrodAgD1IpviJgg7BaTXi_beNAJM9kqcU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuamRtYWdpY2Jv/eC5jb20vY29tcC9k/ZWxoaS93NC8wMTFw/eHgxMS54eDExLjE5/MDkyNDIxMTk0My5u/M3c0L2NhdGFsb2d1/ZS9uaWMtbmF0dXJh/bC1pY2UtY3JlYW1z/LWthcm9sLWJhZ2gt/ZGVsaGktcmVzdGF1/cmFudHMtd2l0aC1v/ZmZlcnMtMnIyYTRu/d2hnOC5qcGc",
+        "locality": "Hakeempet",
+        "areaName": "Toli Chowki",
+        "costForTwo": "₹120 for two",
+        "cuisines": ["Ice Cream", "Desserts"],
+        "avgRating": 4.5,
+        "veg": true,
+        "parentId": "6249",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "5K+",
+        "sla": {
+          "deliveryTime": 55,
+          "lastMileTravel": 5.7,
+          "serviceability": "SERVICEABLE",
+          "slaString": "50-55 mins",
+          "lastMileTravelString": "5.7 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 00:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ],
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "brand",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "brand"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "ITEMS",
+          "subHeader": "AT ₹169"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/nic-ice-creams-hakeempet-toli-chowki-hyderabad-168402",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "643825",
+        "name": "WeFit - Protein Bowls, Salads & Sandwiches",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/23/d32dda02-869b-46d5-b16c-47c4c14314e2_643825.JPG",
+        "imageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRQe6CiwaS6hBdtzbgDVMt_Vxq55ANeYhsWA&s",
+        "locality": "GUMMA KONDA COLONY",
+        "areaName": "Attapur",
+        "costForTwo": "₹250 for two",
+        "cuisines": ["Healthy Food", "Salads", "Keto", "Snacks"],
+        "avgRating": 4.4,
+        "parentId": "355285",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 30,
+          "lastMileTravel": 2.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-30 mins",
+          "lastMileTravelString": "2.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 02:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "brand",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "brand"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "50% OFF",
+          "subHeader": "UPTO ₹100"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/wefit-protein-bowls-salads-and-sandwiches-gumma-konda-colony-attapur-hyderabad-643825",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "622195",
+        "name": "MOJO Pizza - 2X Toppings",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/295f1bfc-237b-4bd4-832b-a23fdf08f8aa_622195.JPG",
+        "imageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaIKz-KWJzK79ckQrPEi5v5HKwL_WGnjZyIg&s",
+        "locality": "Gumma Konda Colony",
+        "areaName": "Attapur",
+        "costForTwo": "₹250 for two",
+        "cuisines": ["Pizzas", "Italian", "Fast Food", "Desserts"],
+        "avgRating": 4.3,
+        "parentId": "11329",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "500+",
+        "sla": {
+          "deliveryTime": 30,
+          "lastMileTravel": 2.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-30 mins",
+          "lastMileTravelString": "2.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 02:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "50% OFF",
+          "subHeader": "UPTO ₹100"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/mojo-pizza-2x-toppings-gumma-konda-colony-attapur-hyderabad-622195",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "692219",
+        "name": "BOOM Sandwich - Sub of India",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/c5bbd782-00ef-45a8-aae7-ed1f86cee653_692219.JPG",
+        "imageId": "https://imgs.search.brave.com/Xv3D73-rAP4mx5BJcIOXixOaMN6t5izN8TX-PbTFRjI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzYzLzE0Lzgy/LzM2MF9GXzYzMTQ4/MjEwXzZDVzkyYWRC/bXRDVDhzOTZXMElZ/UEpwa1pzUGg4SVE1/LmpwZw",
+        "locality": "GUMMA KONDA COLONY",
+        "areaName": "Attapur",
+        "costForTwo": "₹250 for two",
+        "cuisines": ["Snacks", "Indian", "Desserts"],
+        "avgRating": 4.1,
+        "parentId": "401169",
+        "avgRatingString": "4.1",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 25,
+          "lastMileTravel": 2.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "15-25 mins",
+          "lastMileTravelString": "2.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 02:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "60% OFF",
+          "subHeader": "UPTO ₹120"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/boom-sandwich-sub-of-india-gumma-konda-colony-attapur-hyderabad-692219",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "750389",
+        "name": "Daily Kitchen - Homely Meals",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/19/741d7d41-1341-4358-b6e0-cc22b8e82f9a_750389.JPG",
+        "imageId": "https://imgs.search.brave.com/QUF6yXAccZzwgOydgMYL7xVcN9LpfgRz9kwutmLBqiU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dGFzdGVvZmhvbWUu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE4LzAxL1F1aWNr/LUJlZWYtYW5kLU5v/b2RsZXNfRVhQU19G/VDIwXzQxMTM4X0Zf/MDIyOF8xLmpwZw",
+        "locality": "GUMMA KONDA COLONY",
+        "areaName": "Attapur",
+        "costForTwo": "₹400 for two",
+        "cuisines": ["Home Food", "Indian", "North Indian", "Thalis"],
+        "avgRating": 4,
+        "parentId": "444382",
+        "avgRatingString": "4.0",
+        "totalRatingsString": "50+",
+        "sla": {
+          "deliveryTime": 25,
+          "lastMileTravel": 2.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "15-25 mins",
+          "lastMileTravelString": "2.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 02:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "60% OFF",
+          "subHeader": "UPTO ₹120"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/daily-kitchen-homely-meals-gumma-konda-colony-attapur-hyderabad-750389",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "491963",
+        "name": "NH1 Bowls - Highway To North",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/34185028-1357-4551-a4f4-0d545597a73e_491963.JPG",
+        "imageId": "https://imgs.search.brave.com/HVDJMtnwfr0tu2Hdb0U0eTljSKLFnbVY6JGBeYHWE2A/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9naGsw/MzAxMjJzYXZvcjVp/bmdyZWRpZW50LTAw/NS02NDc3ODhiYTE4/YTIyLmpwZz9jcm9w/PTAuNzE0eHc6MC43/NTN4aDswLjEwMnh3/LDAuMTc2eGgmcmVz/aXplPTk4MDoq",
+        "locality": "Attapur",
+        "areaName": "GUMMA KONDA COLONY",
+        "costForTwo": "₹250 for two",
+        "cuisines": ["North Indian", "Punjabi", "Home Food"],
+        "avgRating": 4.5,
+        "parentId": "22452",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "500+",
+        "sla": {
+          "deliveryTime": 25,
+          "lastMileTravel": 2.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "15-25 mins",
+          "lastMileTravelString": "2.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 02:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "60% OFF",
+          "subHeader": "UPTO ₹120"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/nh1-bowls-highway-to-north-attapur-gumma-konda-colony-hyderabad-491963",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "491964",
+        "name": "ZAZA Mughal Biryani",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/a4f027d0-378c-4288-8d62-e1f5fb346b4a_491964.JPG",
+        "imageId": "https://imgs.search.brave.com/vAIaZ0qk9XJ8_uG9VPqjKdjwJS0Cr_DvVDy5zgJZBf4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzE4Lzk3Lzg2/LzM2MF9GXzgxODk3/ODYxNF9CWTBSVkxx/NkE4Szh2NnBzbDRX/a1Z1Ukhjb2taUUgw/Ui5qcGc",
+        "locality": "Attapur",
+        "areaName": "GUMMA KONDA COLONY",
+        "costForTwo": "₹250 for two",
+        "cuisines": ["Biryani", "North Indian", "Awadhi"],
+        "avgRating": 3.8,
+        "parentId": "22473",
+        "avgRatingString": "3.8",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 20,
+          "lastMileTravel": 2.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "10-20 mins",
+          "lastMileTravelString": "2.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 02:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "60% OFF",
+          "subHeader": "UPTO ₹120"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/zaza-mughal-biryani-attapur-gumma-konda-colony-hyderabad-491964",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "491961",
+        "name": "Mealful Rolls - India's Biggest Rolls",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/c6d98b17-67f6-4ad0-95a8-cf40554297fb_491961.JPG",
+        "imageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSu4ZnibLs9-RXdOJuRUVmPtR3Z3AcAW0Yig&s",
+        "locality": "GUMMA KONDA COLONY",
+        "areaName": "Attapur",
+        "costForTwo": "₹250 for two",
+        "cuisines": ["Fast Food", "Snacks", "North Indian", "Desserts"],
+        "avgRating": 4.3,
+        "parentId": "10390",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 30,
+          "lastMileTravel": 2.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-30 mins",
+          "lastMileTravelString": "2.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 02:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "60% OFF",
+          "subHeader": "UPTO ₹120"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/mealful-rolls-indias-biggest-rolls-gumma-konda-colony-attapur-hyderabad-491961",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "740514",
+        "name": "Hola Pasta - Fresh Gourmet Pasta",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/0d125f0f-1c6b-4573-b2cf-c71d31526452_740514.JPG",
+        "imageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjU4a_HfNexF3jhuUesxXv20Tymap2i-ibfw&s",
+        "locality": "GUMMA KONDA COLONY",
+        "areaName": "Attapur",
+        "costForTwo": "₹250 for two",
+        "cuisines": ["Pastas", "Italian", "Desserts", "Beverages"],
+        "avgRating": 3.8,
+        "parentId": "418135",
+        "avgRatingString": "3.8",
+        "totalRatingsString": "10+",
+        "sla": {
+          "deliveryTime": 30,
+          "lastMileTravel": 2.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-30 mins",
+          "lastMileTravelString": "2.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 02:00:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "60% OFF",
+          "subHeader": "UPTO ₹120"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "isNewlyOnboarded": true,
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/hola-pasta-fresh-gourmet-pasta-gumma-konda-colony-attapur-hyderabad-740514",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "681605",
+        "name": "LeanCrust Pizza- ThinCrust Experts",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/23/e5e23da8-f5d8-4782-bbe2-a8b28f64cad0_681605.JPG",
+        "imageId": "https://imgs.search.brave.com/D48HRGNp4nXAwtPG3XDNOVhIx_BxIIzqoEhksLgBRsw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dmVncmVjaXBlc29m/aW5kaWEuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE4LzAx/L3RoaW4tY3J1c3Qt/cGl6emEtcmVjaXBl/LmpwZw",
+        "locality": "GUMMA KONDA COLONY",
+        "areaName": "Attapur",
+        "costForTwo": "₹300 for two",
+        "cuisines": ["Pizzas", "Italian", "Desserts"],
+        "avgRating": 4.1,
+        "parentId": "11216",
+        "avgRatingString": "4.1",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 30,
+          "lastMileTravel": 2.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-30 mins",
+          "lastMileTravelString": "2.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 02:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "60% OFF",
+          "subHeader": "UPTO ₹120"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/leancrust-pizza-thincrust-experts-gumma-konda-colony-attapur-hyderabad-681605",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "491960",
+        "name": "Itminaan Matka Biryani - Slow Cooked",
+        "cloudinaryImageId": "e165225d26130103fecf1c40f5dc3669",
+        "imageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJUF46zRFyY_1pBW8GU1Ic1mqe4u_a74bFgQ&s",
+        "locality": "Attapur",
+        "areaName": "GUMMA KONDA COLONY",
+        "costForTwo": "₹250 for two",
+        "cuisines": ["Biryani", "North Indian", "Mughlai"],
+        "avgRating": 4.1,
+        "parentId": "107673",
+        "avgRatingString": "4.1",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 30,
+          "lastMileTravel": 2.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-30 mins",
+          "lastMileTravelString": "2.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 02:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "60% OFF",
+          "subHeader": "UPTO ₹120"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/itminaan-matka-biryani-slow-cooked-attapur-gumma-konda-colony-hyderabad-491960",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "616266",
+        "name": "Bhatti Chicken - Grilled, NOT Fried!",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/20/2a97ccc8-394e-455b-99e7-22b55908b169_616266.JPG",
+        "imageId": "https://imgs.search.brave.com/ZB8BlyMwSL_woQkNxQkz8D5a-Oy0kIYDEL0IygsD8-E/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTUz/MTkwODcxL3Bob3Rv/L2JhcmJlY3VlLWNo/aWNrZW4uanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPUh4YkE4/aEVGTkR1WV9vRG9K/TS1LdWVlOERwMlN1/UWZaTU1lWXpBS3Nm/LUU9",
+        "locality": "ATTAPUR",
+        "areaName": "Rajendra Nagar circle No 11",
+        "costForTwo": "₹250 for two",
+        "cuisines": ["North Indian", "Snacks", "Fast Food", "Tandoor"],
+        "avgRating": 4.6,
+        "parentId": "355286",
+        "avgRatingString": "4.6",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 35,
+          "lastMileTravel": 2.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-35 mins",
+          "lastMileTravelString": "2.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 02:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "60% OFF",
+          "subHeader": "UPTO ₹120"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/bhatti-chicken-grilled-not-fried-attapur-rajendra-nagar-circle-no-11-hyderabad-616266",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "658841",
+        "name": "La Pino'z Pizza",
+        "cloudinaryImageId": "d20fdc8c86aa8bd0638f47dd013d46f9",
+        "imageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3d60l5ZgKggS2eR2OBQFMXG5ghk-9VpHUZg&s",
+        "locality": "Rajendra Nagar",
+        "areaName": "Attapur",
+        "costForTwo": "₹400 for two",
+        "cuisines": ["Pizzas", "Pastas", "Italian", "Desserts", "Beverages"],
+        "avgRating": 4.1,
+        "parentId": "4961",
+        "avgRatingString": "4.1",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 33,
+          "lastMileTravel": 2,
+          "serviceability": "SERVICEABLE",
+          "slaString": "30-35 mins",
+          "lastMileTravelString": "2.0 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 02:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "Rxawards/_CATEGORY-Pizza.png",
+              "description": "Delivery!"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "Delivery!",
+                    "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "50% OFF",
+          "subHeader": "UPTO ₹100"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/la-pinoz-pizza-rajendra-nagar-attapur-hyderabad-658841",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "681356",
+        "name": "GLOBO Ice Creams Of The World",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/28/04968076-c09c-464e-90e2-e0dd29ea1dfa_681356.JPG",
+        "imageId": "https://imgs.search.brave.com/uo9sSW0JMyqwrcP6_1zVFOaN5rCuH-J7QRJEsFU8os4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTcw/OTQwNDc3L3Bob3Rv/L2ljZS1jcmVhbS5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/eWtnWm5qSlc3X0sx/MTVNMmVPamROckdV/Q1hwaTNLRjF1aEN4/NmNUWVlzdz0",
+        "locality": "GUMMA KONDA COLONY",
+        "areaName": "Attapur",
+        "costForTwo": "₹150 for two",
+        "cuisines": ["Ice Cream", "Desserts", "Bakery"],
+        "avgRating": 4.3,
+        "parentId": "22303",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 20,
+          "lastMileTravel": 2.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "10-20 mins",
+          "lastMileTravelString": "2.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 02:00:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "60% OFF",
+          "subHeader": "UPTO ₹120"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/globo-ice-creams-of-the-world-gumma-konda-colony-attapur-hyderabad-681356",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "355750",
+        "name": "Grameen Kulfi",
+        "cloudinaryImageId": "dkcduodu7fuqn5lqn8f2",
+        "imageId": "https://imgs.search.brave.com/i7HtfTmjoEA76ouEII16ATmdcNT619QI83kIT45g1Ck/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9oZWJi/YXJza2l0Y2hlbi5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjEvMDMvbWFsYWkt/a3VsZmktcmVjaXBl/LW1hbGFpLWt1bGZp/LWljZS1jcmVhbS1o/b3ctdG8tbWFrZS1t/YWxhaS1waXN0YS1r/dWxmaS0yLTEwMjR4/NjgzLmpwZWc",
+        "locality": "Hakeempet",
+        "areaName": "Toli Chowki",
+        "costForTwo": "₹120 for two",
+        "cuisines": ["Ice Cream", "Desserts"],
+        "avgRating": 4.4,
+        "veg": true,
+        "parentId": "12175",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "500+",
+        "sla": {
+          "deliveryTime": 61,
+          "lastMileTravel": 5.7,
+          "serviceability": "SERVICEABLE",
+          "slaString": "60-65 mins",
+          "lastMileTravelString": "5.7 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 00:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "50% OFF",
+          "subHeader": "UPTO ₹100"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/grameen-kulfi-hakeempet-toli-chowki-hyderabad-355750",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "612602",
+        "name": "Kwality Walls Frozen Dessert and Ice Cream Shop",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/13/b3739937-c8ca-40ea-96cd-03b049b4600e_612602.JPG",
+        "imageId": "https://imgs.search.brave.com/q9fwvzMHJiDqq0IdQFKuOmP2n_eDfwqyhbJFqgUwAbU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvMGFh/OTg5MzAtNjFkYi00/MzFiLTgyM2EtNDRk/ZjdkMzIxMGEzLmVh/ZjBhY2UzYjU1YmM1/YzQwZTUyMTk5ZWYz/NDlhMTA1LmpwZWc_/b2RuSGVpZ2h0PTYx/MiZvZG5XaWR0aD02/MTImb2RuQmc9RkZG/RkZG",
+        "locality": "Circle No 13",
+        "areaName": "Charminar",
+        "costForTwo": "₹200 for two",
+        "cuisines": ["Desserts", "Ice Cream", "Ice Cream Cakes"],
+        "avgRating": 4.6,
+        "veg": true,
+        "parentId": "582",
+        "avgRatingString": "4.6",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 33,
+          "lastMileTravel": 2.4,
+          "serviceability": "SERVICEABLE",
+          "slaString": "30-35 mins",
+          "lastMileTravelString": "2.4 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-06-30 05:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ],
+          "textExtendedBadges": [
+            {
+              "iconId": "Ratnesh_Badges/test2.png",
+              "shortDescription": "Perfect ice cream delivery",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "Ratnesh_Badges/test2.png",
+                    "shortDescription": "Perfect ice cream delivery"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "50% OFF",
+          "subHeader": "UPTO ₹100"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/kwality-walls-frozen-dessert-and-ice-cream-shop-circle-no-13-charminar-hyderabad-612602",
+        "type": "WEBLINK"
+      }
+    }
+  ]
+}

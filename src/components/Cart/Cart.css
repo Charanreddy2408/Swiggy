@@ -1,0 +1,178 @@
+.card-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f5f5f5;
+  width: 1000px;
+}
+.cartspace {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.card {
+  text-align: start;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-section {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 88%;
+  margin-left: 10%;
+}
+.userinfo {
+  text-align: start;
+}
+.address {
+  width: 90%;
+  margin-left: 10%;
+  background-color: white;
+  height: 600px;
+}
+.address-b {
+  width: 60%;
+  margin-left: 10%;
+  background-color: white;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  color: gray;
+  height: 80px;
+}
+.payment {
+  width: 60%;
+  margin-left: 10%;
+  color: grey;
+  text-align: start;
+  background-color: white;
+  height: 60px;
+  display: flex;
+  justify-self: center;
+  margin-top: 20px;
+}
+.profile-icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+.profile-info {
+  text-align: start;
+}
+.login {
+  width: 110px;
+  color: #28a745;
+  background-color: white;
+  border-color: rgb(73, 178, 89);
+  margin-right: 30px;
+}
+.Signup {
+  width: 110px;
+  color: white;
+  background-color: #28a745;
+  border: none;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 800px;
+  padding-left: 30px;
+}
+.card {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.card-header {
+  font-weight: bold;
+}
+.card-address {
+  color: #555;
+  margin: 10px 0;
+}
+.card-time {
+  color: #999;
+  margin-bottom: 10px;
+}
+.card-button {
+  background-color: #28a745;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card-button:hover {
+  background-color: #218838;
+}
+.paymentsection {
+  width: 90%;
+  margin-left: 10%;
+  color: rgb(7, 7, 7);
+  background-color: white;
+  margin-top: 20px;
+  height: 90px;
+}
+.paymentsection button {
+  background-color: rgb(25, 122, 25);
+  color: white;
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  border: none;
+}
+.checkout {
+  background-color: white;
+  width: 590px;
+  height: 600px;
+  margin-right: 2%;
+  margin-top: -17%;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.restaurant-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.restaurant-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.restaurant-details {
+  flex-grow: 1;
+}
+.order-summary {
+  margin-top: 20px;
+}
+.order-item, .total-amount {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.order-price, .total-price {
+  font-weight: bold;
+}
+.total-amount {
+  font-size: 1.2em;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}

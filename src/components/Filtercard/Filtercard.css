@@ -1,0 +1,133 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(170, 168, 168, 0.5);
+  z-index: 1000;
+}
+
+.Filtercard {
+  background-color: white;
+  width: 600px;
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.filterhead {
+  background-color: rgb(255, 255, 255);
+  width: 560px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.filterhead p {
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.filtermain {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+}
+
+.filteroptions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: black;
+  background-color: white;
+  width: 200px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  height: 300px; /* Set a fixed height to enable scrolling */
+  overflow-y: auto;
+}
+
+.filteroptions p{
+  font-size: medium;
+  font-weight: 500;
+}
+.filteroptions::-webkit-scrollbar {
+  width: 5px;
+}
+
+.filteroptions::-webkit-scrollbar-thumb {
+  background: #fcfafa;
+  border-radius: 5px;
+}
+
+.filteroptions::-webkit-scrollbar-thumb:hover {
+  background: #fbf9f9;
+}
+.filtertypes {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.Filtercard button {
+  width: 140px;
+  height: 40px;
+  background-color: rgb(245, 108, 18);
+  outline: none;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: large;
+  color: white;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  margin-left: 440px;
+}
+
+.Filtercard button:hover {
+  cursor: pointer;
+  transform: scale(1.1); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: rgb(220, 97, 16);
+}
+
+
+.scroll-buttons {
+  display: none; 
+}
+
+.selectoption {
+  cursor: pointer;
+  position: relative;
+  padding-left: 20px;
+}
+
+.selectoption.active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  background-color: rgb(245 108 18);
+  border-radius: 0 3px 3px 0;
+}

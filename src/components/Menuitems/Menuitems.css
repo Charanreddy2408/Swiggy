@@ -1,0 +1,110 @@
+.menucard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 15px 16px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+}
+
+.info {
+  margin-right: 20px;
+  text-align: start;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.rating {
+  font-size: 14px;
+  margin-left: -2%;
+}
+.rating::before{
+  content: "";
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.foodimage {
+  width: 180px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.cart {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.add-button {
+  background-color: #eaf1ed;
+  color: green;
+  width: 90px;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #9c9e9c;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+ border: none;
+  border-radius: 10px;
+  padding: 4px 8px;
+}
+
+.quantity-button {
+  width: 20px;
+  background-color: white;
+  border: none;
+  color: #00c853;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.quantity-display {
+  margin: 0 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #17c55f;
+}
+
+.info h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.info span {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.info p {
+  font-size: 16px;
+  color: #070707;
+  margin-top: 8px;
+}
