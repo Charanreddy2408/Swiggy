@@ -31,6 +31,10 @@
 .login p:hover{
   color: rgb(255, 102, 0);
   cursor: pointer;
+}.login p{
+  color: black;
+ 
+
 }
 .icons p {
   font-weight: 400;
@@ -39,5 +43,26 @@
 .icons p:hover {
   color: rgb(255, 102, 0);
   cursor: pointer;
+}
+.cart-icon {
+  position: relative; 
+  display: flex;      
+  align-items: center;
+  cursor: pointer;   
+}
+
+.cart-count {
+  background-color: red;          
+  color: white;                
+  border-radius: 50%;          
+  width: 24px;                   
+  height: 24px;                 
+  display: flex;                 
+  justify-content: center;   
+  align-items: center;         
+  font-size: 14px;              
+  position: absolute;           
+  right: -10px;                 
+  top: -2px;                   
 }
 

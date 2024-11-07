@@ -25,19 +25,17 @@ function App() {
       <div className="App">
         <BrowserRouter>
           <Navbar />
+          
           <Routes>
             <Route path="/signup" element={<Signup />} />
             <Route path="/login" element={<Login />} />
             <Route path="/offers" element={<Offers />} />
             <Route path="/help" element={<Help />} />
             <Route path="/:cuisine" element={<Filterfood />} />
+           
             <Route
               path="/restaurant/:name"
               element={<Restaurantinfo />}
-            />
-            <Route
-              path="/cart"
-              element={<Cart />}
             />
             <Route
               path="/*"
@@ -47,11 +45,17 @@ function App() {
                   <Toprestaurants />
                   <Allrestaurants filter={filter} setFilter={setFilter} />
                   {filter && <Filtercard setFilter={setFilter} />}
-                  <Footer />
+                  
                 </>
               }
             />
+             <Route
+              path="/cart"
+              element={<Cart />}
+            />
+         
           </Routes>
+          <Footer />
         </BrowserRouter>
       </div>
     </ContextProviderComponent>

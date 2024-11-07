@@ -4,7 +4,7 @@ import "./Menuitems.css";
 import { FaStar } from "react-icons/fa";
 import { useParams } from "react-router-dom";
 
-const Menuitems = ({ name, price, description, rating, image, id }) => {
+const Menuitems = ({ name, price, description, rating, image, id ,count}) => {
   const { addToCart, removeFromCart, getCartItemQuantity, handleparam } = useContext(Context);
   const { name: restaurantName } = useParams(); 
   const quantity = getCartItemQuantity(name);
@@ -38,7 +38,7 @@ const Menuitems = ({ name, price, description, rating, image, id }) => {
       <div className="image">
         <img className="foodimage" src={image} alt={`${name} image`} />
         <div className="cart">
-          {quantity === 0 ? (
+          {!count  ? (
             <button className="add-button" onClick={handleIncrement}>
               ADD
             </button>
@@ -47,7 +47,7 @@ const Menuitems = ({ name, price, description, rating, image, id }) => {
               <button onClick={handleDecrement} className="quantity-button">
                 -
               </button>
-              <span className="quantity-display">{quantity}</span>
+              <span className="quantity-display">{count}</span>
               <button onClick={handleIncrement} className="quantity-button">
                 +
               </button>

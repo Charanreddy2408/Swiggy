@@ -15,7 +15,7 @@ const Allrestaurants = ({ filter, setFilter }) => {
     ratings, handleRatings, tempRatings, toggleRatings,
     veg, handleVeg, tempVeg, toggleVeg 
   } = useContext(Context);
-
+  
   const [restaurants, setRestaurants] = useState([]);
   const [originalData, setOriginalData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -24,8 +24,8 @@ const Allrestaurants = ({ filter, setFilter }) => {
     setRestaurants(data);
     setOriginalData(data);
     setTimeout(() => setLoading(false), 2000);
+   
   };
-
   const handleFilter = () => {
     setFilter(!filter);
   };

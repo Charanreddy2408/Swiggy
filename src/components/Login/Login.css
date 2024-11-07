@@ -1,9 +1,18 @@
 .logindetails {
     width: 100%;
     height: 750px;
-    background: #fce3fc;
+    background: hsla(184, 82%, 51%, 1);
+
+    background: linear-gradient(90deg, hsla(184, 82%, 51%, 1) 0%, hsla(275, 77%, 70%, 1) 50%, hsla(351, 88%, 62%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(184, 82%, 51%, 1) 0%, hsla(275, 77%, 70%, 1) 50%, hsla(351, 88%, 62%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(184, 82%, 51%, 1) 0%, hsla(275, 77%, 70%, 1) 50%, hsla(351, 88%, 62%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1CDCE8", endColorstr="#BB77ED", GradientType=1 );
     padding-top: 100px;
     margin-bottom: 100px;
+    
   }
   
   .logincontainer {
@@ -50,7 +59,7 @@
   
   .signup {
     margin-top: 20px;
-    color: #5c5c5c;
+    color:grey;
     font-size: 18px;
     font-weight: 500;
   }

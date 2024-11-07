@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import "./Navbar.css";
 import { FiSearch } from "react-icons/fi";
 import { BiSolidOffer } from "react-icons/bi";
@@ -6,25 +6,40 @@ import { IoMdHelpCircleOutline } from "react-icons/io";
 import { FaRegUserCircle } from "react-icons/fa";
 import { FaCartPlus } from "react-icons/fa6";
 import { Link, useNavigate, useParams } from "react-router-dom";
+import { Context } from "../Contextprovider";
 
 const Navbar = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const navigate = useNavigate();
   const params = useParams();
 
+  const { menuData, totalItemsInCart } = useContext(Context);
+
+  const cartQuantity = menuData.reduce((total, section) => {
+    return (
+      total +
+      section.items.reduce((sectionTotal, item) => {
+        return sectionTotal + (item.quantity || 0);
+      }, 0)
+    );
+  }, 0);
+
   useEffect(() => {
     const login = JSON.parse(localStorage.getItem("login"));
-    setIsLoggedIn(!!login?.name); // Check if login.name exists and set isLoggedIn accordingly
+    setIsLoggedIn(!!login?.name);
   }, [params]);
 
+
   const handleLogout = () => {
-    localStorage.removeItem("login"); // Remove login data from localStorage
-    setIsLoggedIn(false); // Update state immediately
-    navigate("/login"); // Navigate to login page if needed
+    localStorage.removeItem("login");
+    setIsLoggedIn(false);
+    navigate("/login");
   };
+
   const handlehome = () => {
     navigate("/");
   };
+
   const handlecart = () => {
     navigate("/cart");
   };
@@ -32,9 +47,11 @@ const Navbar = () => {
   const handleoffer = () => {
     navigate("/offers");
   };
+
   const handlehelp = () => {
     navigate("/help");
   };
+
 
   return (
     <div className="navheader">
@@ -69,10 +86,6 @@ const Navbar = () => {
       </div>
       <div className="navoptions">
         <div className="icons">
-          <FiSearch />
-          <p>search</p>
-        </div>
-        <div className="icons">
           <BiSolidOffer />
           <p onClick={handleoffer}>offers</p>
         </div>
@@ -81,7 +94,7 @@ const Navbar = () => {
           <p onClick={handlehelp}>help</p>
         </div>
         <div className="icons">
-          <FaRegUserCircle />
+          <FaRegUserCircle size={20} />
           {isLoggedIn ? (
             <p onClick={handleLogout}>Logout</p>
           ) : (
@@ -90,9 +103,12 @@ const Navbar = () => {
             </Link>
           )}
         </div>
-        <div className="icons">
+        <div className="icons cart-icon" onClick={handlecart}>
           <FaCartPlus />
-          <p onClick={handlecart}>cart</p>
+          <p>cart</p>
+          { totalItemsInCart > 0 && (
+              <span className="cart-count">{ totalItemsInCart}</span>
+            )}
         </div>
       </div>
     </div>

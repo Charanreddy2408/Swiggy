@@ -4,9 +4,7 @@ import { Context } from '../Contextprovider'
 const Cuisines = () => {
   const{toggleCuisines}=useContext(Context);
   const handlecuisines=(e)=>{
-   
    const {value}=e.target;
-   console.log(value);
    toggleCuisines(value);
   }
   return (
@@ -18,7 +16,7 @@ const Cuisines = () => {
         <input type="radio" name="Cuisined" value="Sweets" onChange={handlecuisines} /> Sweets
       </label>
       <label>
-        <input type="radio" name="Cuisined" value="Deserts"  onChange={handlecuisines}/> Deserts
+        <input type="radio" name="Cuisined" value="Desserts"  onChange={handlecuisines}/> Deserts
       </label>
       <label>
         <input type="radio" name="Cuisined" value="Chaat"  onChange={handlecuisines}/> Chaat

@@ -1,6 +1,6 @@
 .Cardlayout {
   width: 300px;
-  background-color: white;
+  background-color:white;
   border-radius: 8px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
   margin: 10px;
@@ -8,6 +8,7 @@
   flex-direction: column;
   transition: box-shadow 0.3s ease;
   overflow: hidden;
+
   height: 90%;
 }
 
@@ -61,6 +62,8 @@
   width: 100%;
   text-align: center;
   z-index: 2;
+  line-height: normal;
+
 }
 
 .Cardlayout h1 {

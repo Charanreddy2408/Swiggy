@@ -18,13 +18,17 @@ const Restaurantinfo = () => {
     removeFromCart,
     getCartItemQuantity,
     toggleSection,
-    menuData
+    menuData,
+    restarents
   } = useContext(Context);
 
   const handleDataFetch = (data) => {
     setRestaurants(data);
     setLoading(false);
   };
+
+  const restarentMenu = restarents.find((restarent)=>{return restarent.info.name===name})
+  
 
   useEffect(() => {
     if (restaurants.length > 0) {
@@ -35,10 +39,11 @@ const Restaurantinfo = () => {
     }
   }, [name, restaurants]);
 
-  const Section = ({ id, title, children, isOpen }) => {
+  const Section = ({ id, title, name, children, isOpen }) => {
+   
     return (
       <div className="section">
-        <h3 className="menusection" onClick={() => toggleSection(id)}>
+        <h3 className="menusection" onClick={() => toggleSection(title,name)}>
           {title} {isOpen ? <IoIosArrowDropup size={30} /> : <IoIosArrowDropdown size={30} />}
         </h3>
         {isOpen && <div className="section-content">{children}</div>}
@@ -77,16 +82,21 @@ const Restaurantinfo = () => {
               <p className="timestring">{restaurant.info.sla.lastMileTravelString}</p>
             </div>
           </div>
-          {restaurant.menu && restaurant.menu.length > 0 ? (
+        { console.log(restarentMenu.menu,"k")}
+          {restarentMenu.menu && restarentMenu.menu.length > 0 ? (
             <div className="menu">
               <h2>Menu</h2>
-              {menuData.map((section) => (
-                <Section key={section.id} id={section.id} title={section.section} isOpen={section.isOpen}>
+             
+              {restarentMenu.menu.map((section) => (
+                
+                <Section name={name} key={section.id} id={section.id} title={section.section} isOpen={section.isOpen}>
+                
                   <div className="menu-items">
                     {section.items.map((item, index) => (
                       <Menuitems
                         key={index}
                         id={section.id}
+                        count={item.count}
                         name={item.name}
                         price={item.price}
                         description={item.description}
@@ -99,7 +109,7 @@ const Restaurantinfo = () => {
                     ))}
                   </div>
                 </Section>
-              ))}
+              ) )}
             </div>
           ) : (
             <div>No menu data available</div>

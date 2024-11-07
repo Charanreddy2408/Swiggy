@@ -16,16 +16,10 @@ const SignupPage = () => {
   });
   const [visible, setVisible] = useState(false);
   const [confirmVisible, setConfirmVisible] = useState(false);
-  const [passwordError, setPasswordError] = useState("");
-  const [fieldError, setFieldError] = useState("");
+  const [errors, setErrors] = useState({});
 
-  const handleVisible = () => {
-    setVisible(!visible);
-  };
-
-  const handleConfirmVisible = () => {
-    setConfirmVisible(!confirmVisible);
-  };
+  const toggleVisible = () => setVisible(!visible);
+  const toggleConfirmVisible = () => setConfirmVisible(!confirmVisible);
 
   const handleInputChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -33,50 +27,32 @@ const SignupPage = () => {
       ...information,
       [name]: type === "checkbox" ? checked : value,
     });
+    setErrors({ ...errors, [name]: "" });
+  };
 
-    if (name === "password" || name === "ConfirmPassword") {
-      setPasswordError("");
-     
-    }
-    if (
-      name === "name" ||
-      name === "email" ||
-      name === "password" ||
-      name === "ConfirmPassword"
-    ) {
-      setFieldError("");
-     
-    }
+  const validateForm = () => {
+    const newErrors = {};
+    if (information.name.trim().length < 3)
+      newErrors.name = "Name must be at least 3 characters";
+    if (!/\S+@\S+\.\S+/.test(information.email))
+      newErrors.email = "Invalid email address";
+    if (information.password.length < 6)
+      newErrors.password = "Password must be at least 6 characters";
+    if (information.password !== information.ConfirmPassword)
+      newErrors.ConfirmPassword = "Passwords do not match";
+    if (!information.agree)
+      newErrors.agree = "You must agree to the terms";
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    if (information.password !== information.ConfirmPassword) {
-      // setPasswordError("Passwords must match.");
-      addToast("Passwords must match", { appearance: "error" });
+    if (!validateForm()) {
+      addToast("Please fix the errors", { appearance: "error", autoDismiss: true, autoDismissTimeout: 3000 });
       return;
     }
-    if (
-      information.name === "" ||
-      information.email === "" ||
-      information.password === ""
-    ) {
-      // setFieldError("Fields cannot be empty");
-      addToast("Fields cannot be empty", { appearance: "error" });
-      return; 
-    }
-
-    // Store user data in local storage
-    localStorage.setItem(
-      "user",
-      JSON.stringify({
-        name: information.name,
-        email: information.email,
-        password: information.password,
-      })
-    );
-
+    localStorage.setItem("user", JSON.stringify(information));
     setInformation({
       name: "",
       email: "",
@@ -84,7 +60,7 @@ const SignupPage = () => {
       ConfirmPassword: "",
       agree: false,
     });
-    navigate("/home");
+    navigate("/");
   };
 
   return (
@@ -99,14 +75,15 @@ const SignupPage = () => {
             value={information.name}
             onChange={handleInputChange}
           />
+          {errors.name && <p className="error">{errors.name}</p>}
           <input
             type="email"
             name="email"
-            required
             placeholder="Your email"
             value={information.email}
             onChange={handleInputChange}
           />
+          {errors.email && <p className="error">{errors.email}</p>}
           <div className="pass">
             <input
               type={visible ? "text" : "password"}
@@ -115,10 +92,11 @@ const SignupPage = () => {
               value={information.password}
               onChange={handleInputChange}
             />
-            <div className="eye-icon" onClick={handleVisible}>
+            <div className="eye-icon" onClick={toggleVisible}>
               {visible ? <FaEye /> : <FaEyeSlash />}
             </div>
           </div>
+          {errors.password && <p className="error">{errors.password}</p>}
           <div className="pass">
             <input
               type={confirmVisible ? "text" : "password"}
@@ -127,12 +105,11 @@ const SignupPage = () => {
               value={information.ConfirmPassword}
               onChange={handleInputChange}
             />
-            <div className="eye-icon" onClick={handleConfirmVisible}>
+            <div className="eye-icon" onClick={toggleConfirmVisible}>
               {confirmVisible ? <FaEye /> : <FaEyeSlash />}
             </div>
           </div>
-          {passwordError && <p className="error">{passwordError}</p>}
-          {fieldError && <p className="error">{fieldError}</p>}
+          {errors.ConfirmPassword && <p className="error">{errors.ConfirmPassword}</p>}
           <button
             style={{ opacity: information.agree ? 1 : 0.5 }}
             disabled={!information.agree}
@@ -140,6 +117,7 @@ const SignupPage = () => {
           >
             Continue
           </button>
+          {errors.agree && <p className="error">{errors.agree}</p>}
         </div>
         <p className="loginsignup-login">
           Already have an account?{" "}

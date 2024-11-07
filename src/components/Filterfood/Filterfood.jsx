@@ -59,7 +59,7 @@ const Filterfood = () => {
       </div>
       
     </div>
-    <Footer/>
+   
     </>
     
   );

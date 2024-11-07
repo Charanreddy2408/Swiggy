@@ -12,9 +12,10 @@ const LoginPage = () => {
     email: "",
     password: "",
   });
-  const [passwordError, setPasswordError] = useState("");
-  const [fieldError, setFieldError] = useState("");
   const [visible, setVisible] = useState(false);
+  const [errors, setErrors] = useState({});
+
+  const toggleVisible = () => setVisible(!visible);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -22,14 +23,26 @@ const LoginPage = () => {
       ...data,
       [name]: value,
     });
+    setErrors({ ...errors, [name]: "" });
+  };
+
+  const validateForm = () => {
+    const newErrors = {};
+    if (data.name.trim().length < 3)
+      newErrors.name = "Name must be at least 3 characters";
+    if (!/\S+@\S+\.\S+/.test(data.email))
+      newErrors.email = "Invalid email address";
+    if (data.password.length < 6)
+      newErrors.password = "Password must be at least 6 characters";
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (data.name === "" || data.email === "" || data.password === "") {
-      // setFieldError("Fields cannot be empty");
-      addToast("Fields cannot be empty", { appearance: "error" });
+    if (!validateForm()) {
+      addToast("Please fix the errors", { appearance: "error", autoDismiss: true, autoDismissTimeout: 3000 });
       return;
     }
 
@@ -41,28 +54,15 @@ const LoginPage = () => {
         user.email === data.email &&
         user.password === data.password
       ) {
-        addToast("Login Successful", { appearance: "success" });
+        addToast("Login Successful", { appearance: "success", autoDismiss: true, autoDismissTimeout: 3000 });
         navigate("/");
-        localStorage.setItem(
-          "login",
-          JSON.stringify({
-            name: data.name,
-            email: data.email,
-            password: data.password,
-          })
-        );
+        localStorage.setItem("login", JSON.stringify(data));
       } else {
-        // setPasswordError("Invalid credentials");
-        addToast("Invalid credentials", { appearance: "error" });
+        addToast("Invalid credentials", { appearance: "error", autoDismiss: true, autoDismissTimeout: 3000 });
       }
     } else {
-      // setPasswordError("User does not exist");
-      addToast("User does not exist", { appearance: "error" });
+      addToast("User does not exist", { appearance: "error", autoDismiss: true, autoDismissTimeout: 3000 });
     }
-  };
-
-  const handleVisible = () => {
-    setVisible(!visible);
   };
 
   return (
@@ -77,14 +77,15 @@ const LoginPage = () => {
             value={data.name}
             onChange={handleInputChange}
           />
+          {errors.name && <p className="error">{errors.name}</p>}
           <input
             type="email"
             name="email"
-            required
             placeholder="Your email"
             value={data.email}
             onChange={handleInputChange}
           />
+          {errors.email && <p className="error">{errors.email}</p>}
           <div className="pass">
             <input
               type={visible ? "text" : "password"}
@@ -93,15 +94,14 @@ const LoginPage = () => {
               value={data.password}
               onChange={handleInputChange}
             />
-            <div className="eye-icon" onClick={handleVisible}>
+            <div className="eye-icon" onClick={toggleVisible}>
               {visible ? <FaEye /> : <FaEyeSlash />}
             </div>
           </div>
-          {passwordError && <p className="error">{passwordError}</p>}
-          {fieldError && <p className="error">{fieldError}</p>}
+          {errors.password && <p className="error">{errors.password}</p>}
           <button onClick={handleSubmit}>Continue</button>
         </div>
-        <p className="signup">
+        <p className="Signup">
           New account?{" "}
           <Link to="/signup" style={{ textDecoration: "none" }}>
             <button className="signupbutton">Signup here</button>

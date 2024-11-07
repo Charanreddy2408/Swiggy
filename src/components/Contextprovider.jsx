@@ -21,64 +21,127 @@ const ContextProviderComponent = ({ children }) => {
   const [tempVeg, setTempVeg] = useState("");
   
   const handleDataFetch = (data) => {
+  
     setRestaurantname(data);
   };
 
   
   useEffect(() => {
     if (restaurantname?.length > 0 && restaurantName) {
+
       const restaurantMenu = restaurantname.find(
         (restaurant) => restaurant?.info?.name === restaurantName
       );
-console.log(restaurantMenu,"Ee")
-      if (restaurantMenu.length>0) {
-        setCurrentRestaurantMenu(restaurantMenu );
+      if (restaurantMenu) {
+        setCurrentRestaurantMenu(restaurantMenu.menu);
       } else {
+       
         setCurrentRestaurantMenu([]);
       }
     
     }
   }, [restaurantName, restaurantname]);
-  useEffect(()=>{
-    console.log(currentRestaurantMenu,"Ee");
-  },[])
-  console.log("we",currentRestaurantMenu)
+
+
+  function toUpdateRestarentMenuData(updateMenudata){
+        let updatedrestarent = restaurantname.map((res)=>{
+          if(res?.info.name===restaurantName){
+            return {
+              ...res,
+              menu:updateMenudata
+            }
+          }
+          else {
+            return res
+          }
+        })
+
+
+      setRestaurantname(updatedrestarent)
+      console.log(menuData)
+  }
+
   const addToCart = (name, sectionId) => {
-    setCurrentRestaurantMenu((prevRestaurant) => {
-    
-      if (!prevRestaurant || !prevRestaurant.menu) return prevRestaurant;
- 
-      const updatedMenu = prevRestaurant.menu.map((section) => {
-        if (section.id === sectionId) {
-          return {
-            ...section,
-            items: section.items.map((item) =>
-              item.name === name ? { ...item, quantity: item.quantity + 1 } : item
-            ),
-          };
+   let updatedmenudat =  currentRestaurantMenu.map((section)=>{
+      if(section.id===sectionId){
+        return {
+          ...section,
+          items : section.items.map((item)=>{
+            if(item.name===name){
+              
+              return {
+                ...item,
+                count: item.count ? item.count + 1 : 1
+              }
+            }
+            else {
+              return item
+            }
+          })
         }
-        return section;
+      }
+      else {
+        return section
+      }
+    })
+    setMenuData(updatedmenudat)
+    toUpdateRestarentMenuData(updatedmenudat)
+  
+  };
+  const totalQuantity = () => {
+ 
+    if (!currentRestaurantMenu || currentRestaurantMenu.length === 0) {
+      return 0;
+    }
+  
+    let total = 0;
+  
+
+    currentRestaurantMenu.forEach((section) => {
+      
+      section.items.forEach((item) => {
+       
+        total += item.count || 0;
       });
-
-      return {
-        ...prevRestaurant,
-        menu: updatedMenu,
-      };
     });
+  
+    return total; 
   };
+  
+  const totalItemsInCart = totalQuantity();
 
-  const removeFromCart = (name) => {
-    setCurrentRestaurantMenu((prevMenu) =>
-      prevMenu.map((section) => ({
-        ...section,
-        items: section.items.map((item) =>
-          item.name === name && item.quantity > 0
-            ? { ...item, quantity: item.quantity - 1 }
-            : item
-        ),
-      }))
-    );
+
+
+  
+  const removeFromCart = (name, sectionId) => {
+
+   let updatedmenudat =  currentRestaurantMenu.map((section)=>{
+      if(section.id===sectionId){
+        return {
+          ...section,
+          items : section.items.map((item)=>{
+            if(item.name===name){
+            
+              return {
+                ...item,
+                count: item.count ? item.count -1 : 1
+              }
+            }
+            else {
+              return item
+            }
+          })
+        }
+      }
+      else {
+        return section
+      }
+    })
+    setMenuData(updatedmenudat)
+    toUpdateRestarentMenuData(updatedmenudat)
+  
   };
+ 
 
   const getCartItemQuantity = (name) => {
     for (let sectionIndex = 0; sectionIndex < currentRestaurantMenu?.length; sectionIndex++) {
@@ -86,21 +149,43 @@ console.log(restaurantMenu,"Ee")
       for (let itemIndex = 0; itemIndex < section.items?.length; itemIndex++) {
         const item = section.items[itemIndex];
         if (item.name === name) {
-          return item.quantity;
+          return item.count || 0; 
         }
       }
     }
     return 0;
   };
 
-  const toggleSection = (sectionId) => {
-     let newMenudata =  menuData.map((section) =>
-        section.id === sectionId
-          ? { ...section, isOpen: !section.isOpen }
-          : section
-      )
+  
 
-      setMenuData(newMenudata)
+  const toggleSection = (title,name) => {
+  
+    let updatedrestarent = restaurantname.map((res)=>{
+      if(res?.info.name===name){
+
+        return {
+          ...res,
+          menu: res.menu.map((item)=>{
+            if(item.section===title){
+                return {
+                  ...item,
+                  isOpen: item.isOpen ? !item.isOpen : true
+                }
+            }
+            else{
+              return item
+            }
+          })
+        }
+      }
+      else {
+        return res
+      }
+    })
+
+  
+
+  setRestaurantname(updatedrestarent)
     
   };
 
@@ -154,6 +239,10 @@ const togglemenudata = (value) => setMenuData(value);
           toggleSection,
           handleparam,
           togglemenudata,
+          totalItemsInCart,
+          addToCart,
+          removeFromCart,
+          restarents:restaurantname
         }}
       >
         {children}

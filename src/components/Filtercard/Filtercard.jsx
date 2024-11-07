@@ -9,7 +9,7 @@ import Veg from '../Filtertypes/Veg';
 import { Context } from '../Contextprovider';
 
 const Filtercard = ({ setFilter }) => {
-  const { tempSort, tempdelivery, tempcuisines, tempratings, tempveg, handleSort, handleDelivery, handleCuisines, handleRatings, handleVeg } = useContext(Context);
+  const { tempSort, tempDelivery, tempCuisines, tempRatings, tempVeg, handleSort, handleDelivery, handleCuisines, handleRatings, handleVeg } = useContext(Context);
   const [select, setSelect] = useState("sort");
 
   const handleClose = () => {
@@ -22,10 +22,10 @@ const Filtercard = ({ setFilter }) => {
 
   const handleApply = () => {
     handleSort(tempSort); 
-    handleDelivery(tempdelivery);
-    handleCuisines(tempcuisines);
-    handleRatings(tempratings);
-    handleVeg(tempveg);
+    handleDelivery(tempDelivery);
+    handleCuisines(tempCuisines);
+    handleRatings(tempRatings);
+    handleVeg(tempVeg);
     setFilter(false);
   };
 
