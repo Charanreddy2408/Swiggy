@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "%20Charanreddy2408.github.io/%3CSwiggy%3E/static/css/main.6a0cc7cf.chunk.css",
-    "main.js": "%20Charanreddy2408.github.io/%3CSwiggy%3E/static/js/main.52d3f20b.chunk.js",
-    "main.js.map": "%20Charanreddy2408.github.io/%3CSwiggy%3E/static/js/main.52d3f20b.chunk.js.map",
-    "runtime~main.js": "%20Charanreddy2408.github.io/%3CSwiggy%3E/static/js/runtime~main.25c9b443.js",
-    "runtime~main.js.map": "%20Charanreddy2408.github.io/%3CSwiggy%3E/static/js/runtime~main.25c9b443.js.map",
-    "static/js/2.ef5d7978.chunk.js": "%20Charanreddy2408.github.io/%3CSwiggy%3E/static/js/2.ef5d7978.chunk.js",
-    "static/js/2.ef5d7978.chunk.js.map": "%20Charanreddy2408.github.io/%3CSwiggy%3E/static/js/2.ef5d7978.chunk.js.map",
-    "static/js/3.65a8b092.chunk.js": "%20Charanreddy2408.github.io/%3CSwiggy%3E/static/js/3.65a8b092.chunk.js",
-    "static/js/3.65a8b092.chunk.js.map": "%20Charanreddy2408.github.io/%3CSwiggy%3E/static/js/3.65a8b092.chunk.js.map",
-    "index.html": "%20Charanreddy2408.github.io/%3CSwiggy%3E/index.html",
-    "precache-manifest.dc1ca4c5e2b7b1d67a3b54981ad7af6c.js": "%20Charanreddy2408.github.io/%3CSwiggy%3E/precache-manifest.dc1ca4c5e2b7b1d67a3b54981ad7af6c.js",
-    "service-worker.js": "%20Charanreddy2408.github.io/%3CSwiggy%3E/service-worker.js",
-    "static/css/main.6a0cc7cf.chunk.css.map": "%20Charanreddy2408.github.io/%3CSwiggy%3E/static/css/main.6a0cc7cf.chunk.css.map"
+    "main.css": "/Swiggy/static/css/main.6a0cc7cf.chunk.css",
+    "main.js": "/Swiggy/static/js/main.52d3f20b.chunk.js",
+    "main.js.map": "/Swiggy/static/js/main.52d3f20b.chunk.js.map",
+    "runtime~main.js": "/Swiggy/static/js/runtime~main.46b92925.js",
+    "runtime~main.js.map": "/Swiggy/static/js/runtime~main.46b92925.js.map",
+    "static/js/2.ef5d7978.chunk.js": "/Swiggy/static/js/2.ef5d7978.chunk.js",
+    "static/js/2.ef5d7978.chunk.js.map": "/Swiggy/static/js/2.ef5d7978.chunk.js.map",
+    "static/js/3.65a8b092.chunk.js": "/Swiggy/static/js/3.65a8b092.chunk.js",
+    "static/js/3.65a8b092.chunk.js.map": "/Swiggy/static/js/3.65a8b092.chunk.js.map",
+    "index.html": "/Swiggy/index.html",
+    "precache-manifest.22185f1040c3dd4a9cb135e3d72d35b8.js": "/Swiggy/precache-manifest.22185f1040c3dd4a9cb135e3d72d35b8.js",
+    "service-worker.js": "/Swiggy/service-worker.js",
+    "static/css/main.6a0cc7cf.chunk.css.map": "/Swiggy/static/css/main.6a0cc7cf.chunk.css.map"
   }
 }
