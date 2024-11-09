@@ -44,6 +44,7 @@ const ContextProviderComponent = ({ children }) => {
 
 
   function toUpdateRestarentMenuData(updateMenudata){
+      
         let updatedrestarent = restaurantname.map((res)=>{
           if(res?.info.name===restaurantName){
             return {
@@ -58,11 +59,13 @@ const ContextProviderComponent = ({ children }) => {
 
 
       setRestaurantname(updatedrestarent)
-      console.log(menuData)
+      console.log(restaurantname,"mjk")
   }
 
   const addToCart = (name, sectionId) => {
+  
    let updatedmenudat =  currentRestaurantMenu.map((section)=>{
+    console.log(sectionId,"jij")
       if(section.id===sectionId){
         return {
           ...section,
@@ -242,6 +245,8 @@ const togglemenudata = (value) => setMenuData(value);
           totalItemsInCart,
           addToCart,
           removeFromCart,
+          restaurantName,
+          restaurantname,
           restarents:restaurantname
         }}
       >

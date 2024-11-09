@@ -43,7 +43,7 @@ const Offers = () => {
       )
     }
       </div>
-      <Footer/>
+      
     </div>
     
   );

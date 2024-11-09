@@ -10,6 +10,7 @@ const Menuitems = ({ name, price, description, rating, image, id ,count}) => {
   const quantity = getCartItemQuantity(name);
 
   const handleIncrement = (e) => {
+    console.log(name,id,"jinmk")
     e.stopPropagation();
     addToCart(name, id);
   };

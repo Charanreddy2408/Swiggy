@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useContext } from "react";
-import "./Cart.css"; 
+import "./Cart.css";
 import { Context } from "../Contextprovider";
 import { useNavigate } from "react-router-dom";
 
-// Card component for displaying delivery addresses
+// Reusable Card Component
 const Card = ({ type, address, time }) => (
   <div className="card">
     <div className="card-header">{type}</div>
@@ -13,78 +13,71 @@ const Card = ({ type, address, time }) => (
   </div>
 );
 
-// Main CardContainer component
+// Main CardContainer Component
 const CardContainer = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [userInfo, setUserInfo] = useState(null);
-  const { menuData, addToCart, removeFromCart, getCartItemQuantity,restaurantname} = useContext(Context);
+  const { menuData, addToCart, removeFromCart, getCartItemQuantity,restaurantName,restaurantname } = useContext(Context);
   const navigate = useNavigate();
 
-  // Check local storage for login status and user info
+  // Retrieve login status and user information from local storage
   useEffect(() => {
     const user = JSON.parse(localStorage.getItem("login"));
-    const userInfo = JSON.parse(localStorage.getItem("user"));
+    const storedUserInfo = JSON.parse(localStorage.getItem("user"));
     if (user) {
       setIsLoggedIn(true);
-      setUserInfo(userInfo);
+      setUserInfo(storedUserInfo);
     }
   }, []);
 
-  // Sample addresses for delivery
+  // Static list of delivery addresses
   const addresses = [
-    {
-      type: "Home",
-      address: "High Rise Krishna Residency, Pochhama Basti, Saroornagar, Telangana 500035, India",
-      time: "79 MINS",
-    },
-    {
-      type: "Work",
-      address: "Sanskriti School, Santosh Arcade, Pochhama Basti, Saroornagar, Telangana, India",
-      time: "77 MINS",
-    },
-    {
-      type: "Other",
-      address: "2c, Jain Ravi Gayatri Hights, Jubilee Enclave, HITEC City, Hyderabad, Telangana 500081, India",
-      time: "75 MINS",
-    },
-    {
-      type: "Other",
-      address: "Bzb, Hari Vihar Colony, Bhawani Nagar, Narayanguda, Hyderabad, Telangana 500029, India (Krishna Sai Sadan)",
-      time: "72 MINS",
-    },
+    { type: "Home", address: "High Rise Krishna Residency, Saroornagar, Telangana", time: "79 MINS" },
+    { type: "Work", address: "Sanskriti School, Saroornagar, Telangana", time: "77 MINS" },
+    { type: "Other", address: "Jain Ravi Gayatri Hights, HITEC City, Hyderabad", time: "75 MINS" },
+    { type: "Other", address: "Hari Vihar Colony, Narayanguda, Hyderabad", time: "72 MINS" },
   ];
 
-  // Get items from menuData that are in the cart
-  const cartItems = menuData.flatMap(
-    (section) => section.items.filter((item) => getCartItemQuantity(item.name) > 0)
-  );
+  // Get items in the cart
 
-  // Check if cartItems contains restaurant information
-  console.log(cartItems);
+  const cartItems = restaurantname
+  .filter((restaurant) => restaurant?.info?.name === restaurantName)  
+  .flatMap((restaurant) => 
+    restaurant.menu.map((section) =>
+      section.items
+        .filter((item) => getCartItemQuantity(item.name) > 0)  
+        .map((item) => ({
+          ...item,               
+          sectionId: section.id  
+        }))
+    )
+  )
+  .flat();  
 
-  // Calculate total amount of the cart
-  const totalAmount = cartItems.reduce(
+console.log(cartItems);
+
+
+
+  // Calculate total cart amount
+  const totalAmount = cartItems.flat().reduce(
     (total, item) => total + getCartItemQuantity(item.name) * item.price,
     0
   );
 
-  // Increment item count in cart
-  const incrementItem = (name, sectionId) => {
-    addToCart(name, sectionId); // Directly using the addToCart function from context
-  };
-
-  // Decrement item count in cart
-  const decrementItem = (name, sectionId) => {
-    removeFromCart(name, sectionId); 
-  };
+  // Handlers for item quantity
+  const incrementItem = (name, sectionId) => addToCart(name, sectionId);
+  const decrementItem = (name, sectionId) => removeFromCart(name, sectionId);
 
   // Navigation handlers for login and signup
   const handleLogin = () => navigate("/login");
   const handleSignup = () => navigate("/signup");
+
   return (
-    
     <div className="cartspace">
+       
       <div className="card-container">
+        
+        {/* User Profile Section */}
         <div className="profile-section">
           <div className="profile-icon"></div>
           {isLoggedIn && userInfo ? (
@@ -101,10 +94,12 @@ const CardContainer = () => {
             </div>
           )}
         </div>
+
+        {/* Address and Payment Section */}
         {isLoggedIn ? (
           <>
             <div className="address">
-              <h2>Choose a delivery address</h2>
+              <h1>Choose a delivery address</h1>
               <p>Multiple addresses in this location</p>
               <div className="cards">
                 {addresses.map((address, index) => (
@@ -128,17 +123,17 @@ const CardContainer = () => {
           </>
         )}
       </div>
+
       
       <div className="checkout">
-        
+      <h1 style={{ color: "#f97c21" }}>CHECKOUT</h1>
+
         {cartItems.length > 0 ? (
           <>
-          
             <div className="restaurant-info">
-              {console.log(cartItems,"jmk")}
-              {cartItems[0].restarentName? (
+              {restaurantName ? (
                 <div className="restaurant-details">
-                  <h1>{cartItems[0].restarentName }</h1>
+                  <h1>{restaurantName}</h1>
                 </div>
               ) : (
                 <p>Restaurant details not available.</p>
@@ -146,8 +141,8 @@ const CardContainer = () => {
             </div>
             <div className="order-summary">
               <h3>Order Summary</h3>
-              {cartItems.map((item, index) => (
-                
+              
+              {cartItems.flat().map((item, index) => (
                 <div className="order-item" key={index}>
                   <img src={item.image} alt="Restaurant" className="restaurant-image" />
                   <p>{item.restaurantName}</p>
@@ -161,6 +156,7 @@ const CardContainer = () => {
                 </div>
               ))}
 
+             
               <div className="total-amount">
                 <span>TO PAY</span>
                 <span className="total-price">${totalAmount.toFixed(2)}</span>
