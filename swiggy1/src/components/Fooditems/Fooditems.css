@@ -1,0 +1,60 @@
+.Fooditems {
+    width: 80%;
+    margin: 0 auto; /* Center align horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .items-container {
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    white-space: nowrap; /* Prevent items from wrapping */
+    margin-top: 20px;
+  }
+  
+  .items {
+    display: inline-flex; /* Display items in a row */
+    gap: 20px;
+    padding: 10px; /* Optional padding for items */
+  }
+  
+  .items img {
+    height: 200px; /* Adjust height of each image */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+  }
+  
+  .scroll-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .scroll-buttons button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .scroll-buttons button:hover {
+    color: orange;
+  }
+  
+  
+  .items-container::-webkit-scrollbar {
+    width:8px;
+    height:0.5px;
+  }
+  
+
+  
+  .items-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); /* Thumb color */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+ 
+   
